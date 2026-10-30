@@ -11,14 +11,44 @@
       "sha256": "7f3571b437d1cee089d306962681cc19db53b259c9be4c017bbadad8e77fb6ae"
     },
     {
+      "file": ".python-version",
+      "bytes": 9,
+      "sha256": "50b10393ce287fb4af7616d016dd16ac1a56412af4d2c74cde7ddc5ad5c78761"
+    },
+    {
       "file": ".sofc-project",
       "bytes": 23,
       "sha256": "71d9c6d48742104daf36e739c7fd947c99ee6c811401b480f9ad581c1d8f91a7"
     },
     {
+      "file": "CITATION.cff",
+      "bytes": 834,
+      "sha256": "e62c3e6db19229a4494248326b9eef8b9f4cdd6a17818d09750b95fb20201a70"
+    },
+    {
+      "file": "DATA_LICENSE.md",
+      "bytes": 1806,
+      "sha256": "1d5be8c9a59d3291be920d512801b6f416412a112d3e4132c490ac3ecd366857"
+    },
+    {
+      "file": "LICENSE",
+      "bytes": 1066,
+      "sha256": "279e715f5544bc90e541e681140179555b6ca1e902704e8f98c66f7fcb6a305d"
+    },
+    {
+      "file": "LICENSES/CC-BY-4.0.txt",
+      "bytes": 17179,
+      "sha256": "4500200b91acb1324538d8e8f9665d5f4142d3f1c5cd9730564cf1895b6170f7"
+    },
+    {
+      "file": "NOTICE",
+      "bytes": 544,
+      "sha256": "48110820f4edcaadb07c68e0f35806664605b5d0b94e55f5501edf308b8f8387"
+    },
+    {
       "file": "README.md",
-      "bytes": 7710,
-      "sha256": "176ecf8115aab80ad1641b2e40f92d140a058a6800f4d445f7dd85a66cc745bc"
+      "bytes": 8834,
+      "sha256": "ba1ea16f55aed06429e98308f5c07505aac257fdb82e611faa43bd5ea8dbd9a9"
     },
     {
       "file": "data_manifest.json",
@@ -26,9 +56,24 @@
       "sha256": "3829d46214cc86ef0e8f8c706afeb9cb5ce308bf7e34154c4624bbb35197cc95"
     },
     {
+      "file": "docs/CITATION.md",
+      "bytes": 1164,
+      "sha256": "5fc21038f069f599eda144758045821c2089265f44453e3b973d13cf36739fd6"
+    },
+    {
+      "file": "docs/ENVIRONMENT.md",
+      "bytes": 1724,
+      "sha256": "494af1eb953f8fce752a514109267488d7f5911afe789e1d10b0e4775b3913be"
+    },
+    {
       "file": "docs/REPRODUCIBILITY.md",
-      "bytes": 4201,
-      "sha256": "95c4d99723a02554d861b31ff9156f15e05d385b68d04c0a71150eb987fa626c"
+      "bytes": 4406,
+      "sha256": "7495fa4255bce610340bbc320cad993abdb7065844dc8933c1cc273f37e1efee"
+    },
+    {
+      "file": "docs/RESULTS_INDEX.md",
+      "bytes": 5912,
+      "sha256": "5d7e76f0b52c1464e365316758ea471b134e0d6d9b2abfff5ba6c53fa4b4dc9f"
     },
     {
       "file": "docs/UPLOAD.md",
@@ -37,8 +82,18 @@
     },
     {
       "file": "docs/VALIDATION.md",
-      "bytes": 2772,
-      "sha256": "f714e9cffe56a6f48c217170a8acfdc5b74b4d47bbc1a122122990266457f0cc"
+      "bytes": 3190,
+      "sha256": "33f9b19784159ca17663c1db2479a35e2c55e3f1bd2f3f3aa0157be0f1828e3c"
+    },
+    {
+      "file": "docs/VERSIONS.md",
+      "bytes": 3809,
+      "sha256": "82d8a1299c5c5a0e236aa49d4e046a5b4f936fd398c54f8064003d1d66fd36a3"
+    },
+    {
+      "file": "docs/metadata_validation.json",
+      "bytes": 504,
+      "sha256": "ae07607bf62e9f9b42b768c4cb17ad339ce54b267904aca1df1cdc3720439c6f"
     },
     {
       "file": "docs/model_identity.json",
@@ -59,6 +114,11 @@
       "file": "docs/source_manifest.json",
       "bytes": 90748,
       "sha256": "34350560f63c1e635a536ed466713c1bb04cc17fe7bb88dd714ff526b0555eea"
+    },
+    {
+      "file": "environment.snapshot.json",
+      "bytes": 3180,
+      "sha256": "df017fffca194b6f32c1c679e2fe6b93453ea4087c85c6c06c6087ea0e53e8c5"
     },
     {
       "file": "outputs/microgrid_sys/configs/components.yaml",
@@ -1344,6 +1404,11 @@
       "file": "reference_results/ems_three_sampling/temperature_cross_evaluation.csv",
       "bytes": 3864,
       "sha256": "9ee4379c0b39b30cc1b31c509cb91253ca3914030d1f9b2036bae3febd3c444f"
+    },
+    {
+      "file": "requirements-lock-windows-py312-cu121.txt",
+      "bytes": 877,
+      "sha256": "a639f26c5f644d6bc1ff78e288b9abf3e47ba17d29814d67b986acae713d7468"
     },
     {
       "file": "requirements.txt",

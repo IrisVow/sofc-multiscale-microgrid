@@ -2,6 +2,10 @@
 
 本项目连接 COMSOL 单电池建模与数据导出、PINN 多场代理、温度提取与查找表、容量经济分析以及微电网能量管理。发布包包含研究代码、配置、验证脚本和必要的小型数据；完整训练数据与 COMSOL 基准模型作为同一项目的 Release 附件分发。
 
+## 推荐版本与复现导航
+
+当前文档与授权版本为 **v1.0.1**，默认部署基线为 **PINN v20 / final.pt**。训练器、配置、权重与LUT的对应关系见 [正式版本选择](docs/VERSIONS.md)；论文结果、输入、命令和输出的对应关系见 [结果复现索引](docs/RESULTS_INDEX.md)。完整数据附件使用 [v1.0.0 Release](https://github.com/IrisVow/sofc-multiscale-microgrid/releases/tag/v1.0.0) 中已校验的文件。
+
 ## 目录
 
 | 路径 | 内容 |
@@ -28,6 +32,14 @@ python -m venv .venv
 # 激活虚拟环境后：
 python -m pip install -r requirements.txt
 ```
+
+复现已验证的Windows/CUDA环境时，使用 **Python 3.12.13** 和固定版本文件：
+
+```sh
+python -m pip install -r requirements-lock-windows-py312-cu121.txt
+```
+
+该文件固定直接和间接依赖，包含PyTorch CUDA 12.1轮子的官方索引。系统、Python和CUDA信息见 [环境说明](docs/ENVIRONMENT.md) 与 `environment.snapshot.json`。`requirements.txt`继续提供跨环境使用的依赖范围。
 
 CPU可以运行调度、容量分析、推理和基础验证。PINN完整训练建议使用支持CUDA的PyTorch环境；历史语义界面验证脚本使用CUDA。COMSOL步骤另外需要本机安装COMSOL 6.3及相应模块许可。Python依赖不包含COMSOL。
 
@@ -114,4 +126,10 @@ python tools/comsol.py --comsol-home "本机COMSOL的Multiphysics目录" Build3D
 
 容量研究与温度调度研究的窗口及设备配置不同；各实验的部署、随机配对与热启动用途不同。不能将其合并为已验证的容量—热约束联合优化。完整边界及验证要求见 [复现范围](docs/REPRODUCIBILITY.md)。
 
-本包按“核心代码、配置与必要数据、验证脚本、项目说明”整理，论文正文、组会材料、Origin工程、编译产物和临时文件未纳入。项目授权许可证由作者另行确定，本次未代选。
+## 许可证与引用
+
+代码、配置和文档采用 [MIT许可证](LICENSE)；研究数据、模型权重、ONNX、LUT、COMSOL模型及结果采用 [CC BY 4.0](DATA_LICENSE.md)。
+
+推荐引用：张晏瑞（2026）. *SOFC 多尺度建模与海岛微电网研究代码*（v1.0.1）. GitHub. https://github.com/IrisVow/sofc-multiscale-microgrid
+
+机器可读引用信息见 [CITATION.cff](CITATION.cff)，BibTeX及数据署名示例见 [引用说明](docs/CITATION.md)。

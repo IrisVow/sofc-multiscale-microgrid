@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "如使用本项目代码、数据或模型，请引用以下软件记录，并注明所用版本及修改。"
+type: software
+title: "SOFC 多尺度建模与海岛微电网研究代码"
+authors:
+  - family-names: "张"
+    given-names: "晏瑞"
+version: 1.0.1
+date-released: 2026-10-30
+repository-code: "https://github.com/IrisVow/sofc-multiscale-microgrid"
+url: "https://github.com/IrisVow/sofc-multiscale-microgrid/releases/tag/v1.0.1"
+license:
+  - MIT
+  - CC-BY-4.0
+abstract: "COMSOL与PINN多尺度SOFC建模、温度提取、海岛微电网调度及容量经济分析。代码、配置与文档采用MIT；研究数据和模型采用CC BY 4.0。v1.0.1复用v1.0.0发布的已校验数据附件。"
+keywords:
+  - SOFC
+  - physics-informed neural networks
+  - microgrid
+  - COMSOL
+  - energy management
