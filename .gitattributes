@@ -1,0 +1,6 @@
+# Preserve released bytes so repository files match the SHA-256 manifest.
+* -text
+*.pt binary
+*.onnx binary
+*.npz binary
+*.parquet binary

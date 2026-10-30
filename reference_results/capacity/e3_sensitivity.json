@@ -1,0 +1,110 @@
+{
+  "base_lcoe_usd_mwh": 138.47949189051036,
+  "base_ghg_kg_7d": 7322.271661107319,
+  "tmax_limit_k": 1173.0,
+  "base_tmax_max_k": 1145.737496796049,
+  "base_derate_steps": 0,
+  "economic_factors": [
+    {
+      "factor": "LNG 价格",
+      "key": "fuel_lng_usd_kwh",
+      "lo_value": 0.032,
+      "hi_value": 0.054,
+      "lcoe_lo_usd_mwh": 116.68805097647123,
+      "lcoe_hi_usd_mwh": 160.27093280454955,
+      "dlcoe_lo_pct": -15.736222466261406,
+      "dlcoe_hi_pct": 15.736222466261452
+    },
+    {
+      "factor": "SOFC CAPEX",
+      "key": "capex_sofc_usd_kw",
+      "lo_value": 1050.0,
+      "hi_value": 1950.0,
+      "lcoe_lo_usd_mwh": 130.3558665855799,
+      "lcoe_hi_usd_mwh": 146.60311719544086,
+      "dlcoe_lo_pct": -5.8663020740670095,
+      "dlcoe_hi_pct": 5.866302074067042
+    },
+    {
+      "factor": "电池 CAPEX",
+      "key": "capex_battery_usd_kwh",
+      "lo_value": 210.0,
+      "hi_value": 490.0,
+      "lcoe_lo_usd_mwh": 137.63704185888795,
+      "lcoe_hi_usd_mwh": 139.3219419221328,
+      "dlcoe_lo_pct": -0.6083572521254577,
+      "dlcoe_hi_pct": 0.6083572521254688
+    },
+    {
+      "factor": "折现率",
+      "key": "discount_rate",
+      "lo_value": 0.06,
+      "hi_value": 0.1,
+      "lcoe_lo_usd_mwh": 133.75665704693654,
+      "lcoe_hi_usd_mwh": 143.50492122551,
+      "dlcoe_lo_pct": -3.4104940587938892,
+      "dlcoe_hi_pct": 3.6290061917421124
+    },
+    {
+      "factor": "年电量（负荷）",
+      "key": "annual_energy_mwh",
+      "lo_value": 761.7,
+      "hi_value": 930.9,
+      "lcoe_lo_usd_mwh": 142.12198739942977,
+      "lcoe_hi_usd_mwh": 135.4990548627481,
+      "dlcoe_lo_pct": 2.6303501400765983,
+      "dlcoe_hi_pct": -2.152258783646288
+    }
+  ],
+  "physical_factors": [
+    {
+      "factor": "降解速率",
+      "kind": "soh",
+      "lcoe_lo_usd_mwh": 138.47247469099733,
+      "lcoe_hi_usd_mwh": 138.48651268417908,
+      "dlcoe_lo_pct": -0.0050673203788043075,
+      "dlcoe_hi_pct": 0.0050699158213651785,
+      "soh_end_lo": 0.998840210153409,
+      "soh_end_hi": 0.9965194448414196
+    },
+    {
+      "factor": "T_in",
+      "kind": "thermal",
+      "key": "t_in_nominal_k",
+      "tmax_lo_k": 1123.677331770907,
+      "tmax_hi_k": 1145.737496796049,
+      "derate_lo": 0,
+      "derate_hi": 0,
+      "lcoe_lo_usd_mwh": 138.47949189051036,
+      "lcoe_hi_usd_mwh": 138.47949189051036,
+      "dlcoe_lo_pct": 0.0,
+      "dlcoe_hi_pct": 0.0
+    },
+    {
+      "factor": "lambda_air",
+      "kind": "thermal",
+      "key": "lambda_air_nominal",
+      "tmax_lo_k": 1149.9728644155873,
+      "tmax_hi_k": 1143.0632428692481,
+      "derate_lo": 0,
+      "derate_hi": 0,
+      "lcoe_lo_usd_mwh": 138.47949189051036,
+      "lcoe_hi_usd_mwh": 138.47949189051036,
+      "dlcoe_lo_pct": 0.0,
+      "dlcoe_hi_pct": 0.0
+    },
+    {
+      "factor": "FU",
+      "kind": "thermal",
+      "key": "fu_nominal",
+      "tmax_lo_k": 1145.737496796049,
+      "tmax_hi_k": 1145.737496796049,
+      "derate_lo": 0,
+      "derate_hi": 0,
+      "lcoe_lo_usd_mwh": 138.47949189051036,
+      "lcoe_hi_usd_mwh": 138.47949189051036,
+      "dlcoe_lo_pct": 0.0,
+      "dlcoe_hi_pct": 0.0
+    }
+  ]
+}

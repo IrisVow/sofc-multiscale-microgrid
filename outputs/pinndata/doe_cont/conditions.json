@@ -1,0 +1,38 @@
+{
+  "model_source": "sofc1_FINAL2_solved.mph (COMSOL 6.3)",
+  "note": "B4-cont continuous load trajectories: ramp(R1) / multistep(R2) / sine(R3) / random(R4), V 0.70-1.0 V window 1200 s; stepT_s=NaN; cleaning identical to transient DOE",
+  "cases": {
+    "R1": {
+      "V_cell": 1.0,
+      "T_in_K": 1073.0,
+      "lambda_air": 8.0,
+      "FU": 0.6,
+      "amp_V": 0.2,
+      "wave_type": "ramp"
+    },
+    "R2": {
+      "V_cell": 1.0,
+      "T_in_K": 1073.0,
+      "lambda_air": 8.0,
+      "FU": 0.6,
+      "amp_V": 0.25,
+      "wave_type": "multistep"
+    },
+    "R3": {
+      "V_cell": 1.0,
+      "T_in_K": 1073.0,
+      "lambda_air": 8.0,
+      "FU": 0.6,
+      "amp_V": 0.2,
+      "wave_type": "sine"
+    },
+    "R4": {
+      "V_cell": 1.0,
+      "T_in_K": 1073.0,
+      "lambda_air": 8.0,
+      "FU": 0.6,
+      "amp_V": 0.25,
+      "wave_type": "random"
+    }
+  }
+}

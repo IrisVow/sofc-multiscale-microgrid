@@ -1,0 +1,18 @@
+{
+  "fresh_archive_extraction": true,
+  "destination_path_contains_spaces": true,
+  "cwd_outside_repository": true,
+  "checks": [
+    {
+      "check": "train_smoke_from_external_cwd",
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "check": "onnx_parity_from_external_cwd",
+      "exit_code": 0,
+      "passed": true
+    }
+  ],
+  "sample_training_epochs": 1
+}

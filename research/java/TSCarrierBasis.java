@@ -1,0 +1,23 @@
+import com.comsol.model.*;import com.comsol.model.util.*;import com.comsol.model.physics.*;import java.util.*;import java.io.*;
+public class TSCarrierBasis{
+ static String fuel="(y>0.00131[m])";static String old(String e){return "withsol('tsBasisWarm',("+e+"))";}
+ public static void main(String[] a){try{
+  ModelUtil.initStandalone(false);ModelUtil.showPlots(false);ModelUtil.showProgress(a[2]);Model m=ModelUtil.load("TSCarrier",a[0]);m.sol("sol1").copySolution("tsBasisWarm");
+  m.component("comp1").variable().create("tsPhysicalSpecies");m.component("comp1").variable("tsPhysicalSpecies").selection().geom("geom1",2);m.component("comp1").variable("tsPhysicalSpecies").selection().set(new int[]{1,2,4,5});
+  m.component("comp1").variable("tsPhysicalSpecies").set("ts_H2","w1");m.component("comp1").variable("tsPhysicalSpecies").set("ts_H2O","if("+fuel+",w4,w2)");m.component("comp1").variable("tsPhysicalSpecies").set("ts_O2","w3");m.component("comp1").variable("tsPhysicalSpecies").set("ts_N2","if("+fuel+",w2,w4)");
+  m.physics("tcs").feature("sp1").set("M_w2","if("+fuel+",M_N2,M_H2O)");m.physics("tcs").feature("sp1").set("M_w4","if("+fuel+",M_H2O,M_N2)");
+  String[] air={"D12","D13","D14","D23","D24","D34"},an={"D14","D13","D12","D34","D24","D23"};for(PhysicsFeature f:new PhysicsFeature[]{m.physics("tcs").feature("cdm1"),m.physics("tcs").feature("pom1").feature("fluid1")})for(int k=0;k<6;k++)f.setIndex("DF","if("+fuel+","+an[k]+","+air[k]+")",k);
+  String water=m.physics("tcs").feature("rxn_an").getString("R_w2");m.physics("tcs").feature("rxn_an").set("R_w2","0[kg/(m^3*s)]");m.physics("tcs").feature("rxn_an").set("R_w4",water);m.physics("tcs").feature("mf2").set("wbnd",new double[]{0,0,0,0});
+  // Remap explicit non-TCS water/N2 references without touching differential operators or physical constants.
+  PrintWriter evidence=new PrintWriter(a[1].replace(".mph","_basis_evidence.txt"),"UTF-8");
+  for(String tag:m.component("comp1").variable().tags())if(!tag.equals("tsPhysicalSpecies"))for(String name:m.component("comp1").variable(tag).varnames()){String expr=m.component("comp1").variable(tag).get(name);String changed=expr.replaceAll("(?<![A-Za-z0-9_])w2(?![A-Za-z0-9_])","ts_H2O").replaceAll("(?<![A-Za-z0-9_])w4(?![A-Za-z0-9_])","ts_N2");if(!expr.equals(changed)){evidence.println("PHYSICAL_VARIABLE|"+tag+"|"+name+"|"+expr+" -> "+changed);m.component("comp1").variable(tag).set(name,changed);}}
+  m.physics("tcs").feature("init1").set("w0",new String[]{old("w1"),"if("+fuel+","+old("w4")+","+old("w2")+")",old("w3"),"if("+fuel+","+old("w2")+","+old("w4")+")"});
+  m.physics("fp").feature("init1").set("u",new String[]{old("u"),old("v"),"0"});m.physics("fp").feature("init1").set("p",old("p"));m.physics("ht").feature("init1").set("Tinit",old("T"));
+  for(String tag:m.physics("siec").feature().tags())if(m.physics("siec").feature(tag).getType().equals("init")){m.physics("siec").feature(tag).set("phis",old("phis"));m.physics("siec").feature(tag).set("phil",old("phil"));}
+  m.sol("sol1").feature("v1").set("initmethod","init");m.sol("sol1").feature("v1").set("initsol","zero");m.sol("sol1").feature("s1").set("stol","1e-9");
+  for(String w:new String[]{"w1","w2","w3"}){m.sol("sol1").feature("v1").feature("comp1_"+w).set("scalemethod","manual");m.sol("sol1").feature("v1").feature("comp1_"+w).set("scaleval",w.equals("w2")?"1e-6":"0.1");}
+  m.sol("sol1").feature("s1").feature("fc1").set("dtech","auto");m.sol("sol1").feature("s1").feature("fc1").set("initstep","1");m.sol("sol1").feature("s1").feature("fc1").set("maxiter","25");m.sol("sol1").feature("s1").feature("fc1").set("termonres","off");
+  for(String tag:m.sol("sol1").feature("s1").feature().tags())if(m.sol("sol1").feature("s1").feature(tag).getType().equals("Direct")){evidence.println("DIRECT|"+tag);m.sol("sol1").feature("s1").feature(tag).set("linsolver","mumps");m.sol("sol1").feature("s1").feature(tag).set("pivotperturb","1e-13");m.sol("sol1").feature("s1").feature(tag).set("nliniterrefine","on");m.sol("sol1").feature("s1").feature(tag).set("iterrefine","on");m.sol("sol1").feature("s1").feature(tag).set("maxrefinesteps",25);}
+  evidence.println("BASIS|air:(H2,H2O,O2,N2);fuel:(H2,N2,O2,H2O). Four species retained; no concentration clamping.");evidence.close();m.save(a[1].replace(".mph","_configured.mph"));System.out.println("CARRIER_BASIS_SOLVE_START");System.out.flush();m.sol("sol1").runAll();m.label("Domain-adapted carrier basis, four-species MS retained; physical aliases ts_H2/ts_H2O/ts_O2/ts_N2");m.save(a[1]);m.save(a[1].replace(".mph","_history.java"),"java");System.out.println("CARRIER_BASIS_COMPLETE");System.exit(0);
+ }catch(Throwable e){e.printStackTrace(System.out);System.exit(1);}}
+}

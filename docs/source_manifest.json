@@ -1,0 +1,1757 @@
+[
+  {
+    "file": "outputs/microgrid_sys/src/analysis/__init__.py",
+    "source": "upstream/outputs/microgrid_sys/src/analysis/__init__.py",
+    "source_sha256": "3feb24970c2460c4882e916ff59249dd81013dd130391387a7bfee2be8b2af5d"
+  },
+  {
+    "file": "outputs/microgrid_sys/src/analysis/capacity.py",
+    "source": "upstream/outputs/microgrid_sys/src/analysis/capacity.py",
+    "source_sha256": "48a5cb26a1356b0edbc7f6f86a4c309bf8052d9796a27ebb089dcac2c4ca52d4"
+  },
+  {
+    "file": "outputs/microgrid_sys/src/analysis/load_profile.py",
+    "source": "upstream/outputs/microgrid_sys/src/analysis/load_profile.py",
+    "source_sha256": "d88c00f086715874322836c9d1a075f3f02ff0e5bb199f2f9218aa427a23be5b"
+  },
+  {
+    "file": "outputs/microgrid_sys/src/analysis/renewables.py",
+    "source": "upstream/outputs/microgrid_sys/src/analysis/renewables.py",
+    "source_sha256": "2dceacc6cdfbfb739c2eef7a4d867ab27832dbea21ee3d88b7a1b39e4841beb5"
+  },
+  {
+    "file": "outputs/microgrid_sys/src/components/__init__.py",
+    "source": "upstream/outputs/microgrid_sys/src/components/__init__.py",
+    "source_sha256": "40b1952c0accc28780c856f9f0d5d628de2a0d82b5dd889551883c9a428628c3"
+  },
+  {
+    "file": "outputs/microgrid_sys/src/components/battery.py",
+    "source": "upstream/outputs/microgrid_sys/src/components/battery.py",
+    "source_sha256": "0c43e7f18a9b96ca6baa657097446ce75b4a7fa778dbbd8ee311479407b6563a"
+  },
+  {
+    "file": "outputs/microgrid_sys/src/components/boiler.py",
+    "source": "upstream/outputs/microgrid_sys/src/components/boiler.py",
+    "source_sha256": "24bd2a4dd73822627defb96e34cdba75365ca6c0e5e2615a36e52171aa3e516e"
+  },
+  {
+    "file": "outputs/microgrid_sys/src/components/emissions.py",
+    "source": "upstream/outputs/microgrid_sys/src/components/emissions.py",
+    "source_sha256": "a4621333b21f3ded947d5752ea6a1f45300a30557a7eb4f3cf60de55ab04c3ab"
+  },
+  {
+    "file": "outputs/microgrid_sys/src/components/genset.py",
+    "source": "upstream/outputs/microgrid_sys/src/components/genset.py",
+    "source_sha256": "704ebd637fee88006d4b31092abb04d4eb3b183fa45188e7b406c92addd0635d"
+  },
+  {
+    "file": "outputs/microgrid_sys/src/components/params.py",
+    "source": "upstream/outputs/microgrid_sys/src/components/params.py",
+    "source_sha256": "260457fdbf07bf4d9d4b1679b34977defa885756bcb05d434451593da091b32e"
+  },
+  {
+    "file": "outputs/microgrid_sys/src/components/reformer.py",
+    "source": "upstream/outputs/microgrid_sys/src/components/reformer.py",
+    "source_sha256": "7ad957238e863ec737ca82ee174d0d26bcace272ccff6a7ccb402d06afae0967"
+  },
+  {
+    "file": "outputs/microgrid_sys/src/components/scaling.py",
+    "source": "upstream/outputs/microgrid_sys/src/components/scaling.py",
+    "source_sha256": "cb002de8208bc7f9d8d6f3a242ddc944a2f8ccc1db53a8020d5545af965ce7f4"
+  },
+  {
+    "file": "outputs/microgrid_sys/src/components/sizing.py",
+    "source": "upstream/outputs/microgrid_sys/src/components/sizing.py",
+    "source_sha256": "9559dc3e6d209f3f5a745afad53a682ed9d356a9dc7c698a913af67ebb12411d"
+  },
+  {
+    "file": "outputs/microgrid_sys/src/components/sofc_system.py",
+    "source": "upstream/outputs/microgrid_sys/src/components/sofc_system.py",
+    "source_sha256": "16f1206a34dc6a6fe6e285c8651bc89a1e209fef4eb159caa487134522e95988"
+  },
+  {
+    "file": "outputs/microgrid_sys/src/coupling/__init__.py",
+    "source": "upstream/outputs/microgrid_sys/src/coupling/__init__.py",
+    "source_sha256": "1831dc24825169e79dc1dc0bd34e9adf20bebc033db261e6a952d9fd4bd212a5"
+  },
+  {
+    "file": "outputs/microgrid_sys/src/coupling/domain_guard.py",
+    "source": "upstream/outputs/microgrid_sys/src/coupling/domain_guard.py",
+    "source_sha256": "6c203d55b10725d709148477c1b59eaa8dfa3da10263bce5a35cfddda7c46db8"
+  },
+  {
+    "file": "outputs/microgrid_sys/src/coupling/lut.py",
+    "source": "upstream/outputs/microgrid_sys/src/coupling/lut.py",
+    "source_sha256": "1cadcf3f04224d451f2c026869a6ed74a0c7bab73c243dd7c38301c5b8c61326"
+  },
+  {
+    "file": "outputs/microgrid_sys/src/coupling/pinn_coupling.py",
+    "source": "upstream/outputs/microgrid_sys/src/coupling/pinn_coupling.py",
+    "source_sha256": "27df333b605fa7b5b2020b36219d3ebe0cb5881319a977b9d63fcf0dc894b076"
+  },
+  {
+    "file": "outputs/microgrid_sys/src/coupling/pinn_inference.py",
+    "source": "upstream/outputs/microgrid_sys/src/coupling/pinn_inference.py",
+    "source_sha256": "2d10a56aec6878dc668ab128897aa4820297ddba29eb6128d3793292557c9c60"
+  },
+  {
+    "file": "outputs/microgrid_sys/src/coupling/surrogate.py",
+    "source": "upstream/outputs/microgrid_sys/src/coupling/surrogate.py",
+    "source_sha256": "7d5896c6c76da140ec6a5f8b9e6354cba68db80e39a576da4051de38d89923d0"
+  },
+  {
+    "file": "outputs/microgrid_sys/src/ems/__init__.py",
+    "source": "upstream/outputs/microgrid_sys/src/ems/__init__.py",
+    "source_sha256": "c1219348a3dd7288956fd42a771c913537bd5791fdd9f1e9bddc095a0c824da9"
+  },
+  {
+    "file": "outputs/microgrid_sys/src/ems/dispatch.py",
+    "source": "upstream/outputs/microgrid_sys/src/ems/dispatch.py",
+    "source_sha256": "e36e3afad7e7702a5677cd8f1d94e3801d97db4e6ee6ab88446db09b1ba5e43b"
+  },
+  {
+    "file": "outputs/microgrid_sys/src/ems/ems.py",
+    "source": "upstream/outputs/microgrid_sys/src/ems/ems.py",
+    "source_sha256": "51a829b21ea66c1b222feee94cb615ddbb1eb57a60c94c5c9218f3887550b35f"
+  },
+  {
+    "file": "outputs/microgrid_sys/configs/components.yaml",
+    "source": "upstream/outputs/microgrid_sys/configs/components.yaml",
+    "source_sha256": "df55c6bdbc5879dc613569d663f40cf4e88d76a17146d5538b39f9e12d782451"
+  },
+  {
+    "file": "outputs/microgrid_sys/configs/coupling.v18_backup.yaml",
+    "source": "upstream/outputs/microgrid_sys/configs/coupling.v18_backup.yaml",
+    "source_sha256": "01d370e6621c99b693c02fbf5a7d0a7a84289b5298ed2d076518d5414c1a5a8a"
+  },
+  {
+    "file": "outputs/microgrid_sys/configs/coupling.v19_backup.yaml",
+    "source": "upstream/outputs/microgrid_sys/configs/coupling.v19_backup.yaml",
+    "source_sha256": "a13d004e9bb6251fbdee7300e214f2cbe17318362dd5067ce07717f3b6e7e724"
+  },
+  {
+    "file": "outputs/microgrid_sys/configs/coupling.yaml",
+    "source": "upstream/outputs/microgrid_sys/configs/coupling.yaml",
+    "source_sha256": "eaaf9612c05f7727b52afb44cf2bca5b393c3182031033bc54930ca5ae9e9987"
+  },
+  {
+    "file": "outputs/microgrid_sys/configs/economics.yaml",
+    "source": "upstream/outputs/microgrid_sys/configs/economics.yaml",
+    "source_sha256": "5c604da8b1b5f07bd79efd29e701757bd48bac4752f7176681b1a9e84d82054b"
+  },
+  {
+    "file": "outputs/microgrid_sys/configs/ems.yaml",
+    "source": "upstream/outputs/microgrid_sys/configs/ems.yaml",
+    "source_sha256": "2e79aae139cea8db3e091c93f9390c580000ceaac9637fe82fb0d864b3bd012b"
+  },
+  {
+    "file": "outputs/microgrid_sys/configs/scaling.yaml",
+    "source": "upstream/outputs/microgrid_sys/configs/scaling.yaml",
+    "source_sha256": "61f5ffb2eef0b64b212b3f10fddb39bde60d13f8abe0adb5fc2d3a8f0d531607"
+  },
+  {
+    "file": "outputs/microgrid_sys/configs/scenario.yaml",
+    "source": "upstream/outputs/microgrid_sys/configs/scenario.yaml",
+    "source_sha256": "468ff79a198f27fa4bd9a03cc3eaf3447c92b9c3f9c806dac287f2cfa65d95ca"
+  },
+  {
+    "file": "outputs/microgrid_sys/configs/sizing.yaml",
+    "source": "upstream/outputs/microgrid_sys/configs/sizing.yaml",
+    "source_sha256": "90f832fb01c7e8765a48503764463cc82694fd961d1aba2a566f2ff684a61093"
+  },
+  {
+    "file": "outputs/microgrid_sys/scripts/build_pinn_table.py",
+    "source": "upstream/outputs/microgrid_sys/scripts/build_pinn_table.py",
+    "source_sha256": "dc68d9e369c81bf3ea0195a3918145e1a33489249045956ed4a386e4e31fa35b"
+  },
+  {
+    "file": "outputs/microgrid_sys/scripts/check_capacity.py",
+    "source": "upstream/outputs/microgrid_sys/scripts/check_capacity.py",
+    "source_sha256": "f6f2b489c2bccd6e0585910ff624b1bda1fa21e3e0e1c5bcc73440bccf112aac"
+  },
+  {
+    "file": "outputs/microgrid_sys/scripts/check_components.py",
+    "source": "upstream/outputs/microgrid_sys/scripts/check_components.py",
+    "source_sha256": "340e40f264e9e2af6b967963f273027e70c119fb0afbb830254652174afd249e"
+  },
+  {
+    "file": "outputs/microgrid_sys/scripts/check_ems.py",
+    "source": "upstream/outputs/microgrid_sys/scripts/check_ems.py",
+    "source_sha256": "fdae7e57a788f048abea6f13a4a26ae36110174d5ec28e4061983466738e2a56"
+  },
+  {
+    "file": "outputs/microgrid_sys/scripts/check_inference.py",
+    "source": "upstream/outputs/microgrid_sys/scripts/check_inference.py",
+    "source_sha256": "32c46ade5e167bfc33318a72c6630e46897a41acc5314815de29369276ae3adf"
+  },
+  {
+    "file": "outputs/microgrid_sys/scripts/check_load.py",
+    "source": "upstream/outputs/microgrid_sys/scripts/check_load.py",
+    "source_sha256": "5fe4a7baf121fac19cc4d9b5dd6d7c038d390d6ba8b782f0d9969c9a6e5a826e"
+  },
+  {
+    "file": "outputs/microgrid_sys/scripts/check_lut.py",
+    "source": "upstream/outputs/microgrid_sys/scripts/check_lut.py",
+    "source_sha256": "3578733cc54c2697dfea1b3498530d2aa2b4de44ea0ccebafbd72d724f1191ea"
+  },
+  {
+    "file": "outputs/microgrid_sys/scripts/check_scaling.py",
+    "source": "upstream/outputs/microgrid_sys/scripts/check_scaling.py",
+    "source_sha256": "19fa57b8a795c78459a29e1deb5ace3f890369b074400e3255a7679b901afc79"
+  },
+  {
+    "file": "outputs/microgrid_sys/scripts/check_sizing.py",
+    "source": "upstream/outputs/microgrid_sys/scripts/check_sizing.py",
+    "source_sha256": "bd7236bded9dcd1a558b21f0c6f32171fbcb0aa265bbfb601292906404c5c69e"
+  },
+  {
+    "file": "outputs/microgrid_sys/scripts/check_surrogate.py",
+    "source": "upstream/outputs/microgrid_sys/scripts/check_surrogate.py",
+    "source_sha256": "7f75733b33e2fe01859a49ec5f7a4a6ad27b784f6b7698c6cb5e6b860ea26aea"
+  },
+  {
+    "file": "outputs/microgrid_sys/scripts/compare_paper_benchmarks.py",
+    "source": "upstream/outputs/microgrid_sys/scripts/compare_paper_benchmarks.py",
+    "source_sha256": "4633ef34bebc318cb3a4ef4abddb48586272fcbf3764b2eb69e68a10f499ea5a"
+  },
+  {
+    "file": "outputs/microgrid_sys/scripts/compare_pinn_ems.py",
+    "source": "upstream/outputs/microgrid_sys/scripts/compare_pinn_ems.py",
+    "source_sha256": "333f5f7276731ff7ad2ec17c6025553015417095bee0214f1d45dad9985bd77c"
+  },
+  {
+    "file": "outputs/microgrid_sys/scripts/fig_common.py",
+    "source": "upstream/outputs/microgrid_sys/scripts/fig_common.py",
+    "source_sha256": "8233cef6d5eaefe35fb528d90fc267ebd747f56cdd186178be1a84110c909181"
+  },
+  {
+    "file": "outputs/microgrid_sys/scripts/fig_ems_dispatch.py",
+    "source": "upstream/outputs/microgrid_sys/scripts/fig_ems_dispatch.py",
+    "source_sha256": "08274df30e7502f5802babbc588d57917d175f913ddb42466064889c7710ea0f"
+  },
+  {
+    "file": "outputs/microgrid_sys/scripts/fig_iv_curves.py",
+    "source": "upstream/outputs/microgrid_sys/scripts/fig_iv_curves.py",
+    "source_sha256": "f17f69f4a76d833c961fef93b8d6be60b780cd89a13ce4f576a46b45cab41f28"
+  },
+  {
+    "file": "outputs/microgrid_sys/scripts/fig_lut.py",
+    "source": "upstream/outputs/microgrid_sys/scripts/fig_lut.py",
+    "source_sha256": "be2b09cd97ec8071507371300229b4717c48ec41fcb67e1aa0ab49f2abe26f30"
+  },
+  {
+    "file": "outputs/microgrid_sys/scripts/fig_metrics.py",
+    "source": "upstream/outputs/microgrid_sys/scripts/fig_metrics.py",
+    "source_sha256": "e50080d549662c5da3f187c76fb3565774fc6d1b3c9882732848fb78a8d2aeae"
+  },
+  {
+    "file": "outputs/microgrid_sys/scripts/fig_thermal_fields.py",
+    "source": "upstream/outputs/microgrid_sys/scripts/fig_thermal_fields.py",
+    "source_sha256": "721be16a1c72c7b2e145af7161a6007d530f136eb9220bbb87d688670fad8248"
+  },
+  {
+    "file": "outputs/microgrid_sys/scripts/fig_thermal_shock.py",
+    "source": "upstream/outputs/microgrid_sys/scripts/fig_thermal_shock.py",
+    "source_sha256": "170e9a8523976c2bb7cac0f9591f91d23066dfb12e330eac571d45b575f28bbf"
+  },
+  {
+    "file": "outputs/microgrid_sys/scripts/post_v20_validation.py",
+    "source": "upstream/outputs/microgrid_sys/scripts/post_v20_validation.py",
+    "source_sha256": "192c865d7502d8e4b9e5dbc4204f88b3dccf25e237f411ba06844f3d2b1a4aa5"
+  },
+  {
+    "file": "outputs/microgrid_sys/scripts/reproduce_all.py",
+    "source": "upstream/outputs/microgrid_sys/scripts/reproduce_all.py",
+    "source_sha256": "5538472791817c4cb10e385dc003bc14b0933f391ac04222b2c60eb9932b0f00"
+  },
+  {
+    "file": "outputs/microgrid_sys/scripts/run_capacity_opt.py",
+    "source": "upstream/outputs/microgrid_sys/scripts/run_capacity_opt.py",
+    "source_sha256": "732174f1f39baaadc7c7d77d80e27e7f498dea34b9fe92302c105c0f611e47eb"
+  },
+  {
+    "file": "outputs/microgrid_sys/scripts/run_day_sim.py",
+    "source": "upstream/outputs/microgrid_sys/scripts/run_day_sim.py",
+    "source_sha256": "03d887d373ec60a878978ee73667d5d0ff8ba095cb228884259a4ded2f12e415"
+  },
+  {
+    "file": "outputs/microgrid_sys/scripts/run_figures.py",
+    "source": "upstream/outputs/microgrid_sys/scripts/run_figures.py",
+    "source_sha256": "c956e0189957f9de66444784f5f73929881347cf2d5b7312b8da8ac4a88e0a20"
+  },
+  {
+    "file": "outputs/microgrid_sys/scripts/sensitivity_tornado.py",
+    "source": "upstream/outputs/microgrid_sys/scripts/sensitivity_tornado.py",
+    "source_sha256": "e61b8ab276eaa429f5a939730a498584cdbe0eba13a95c15931e9aa63eacc1f7"
+  },
+  {
+    "file": "outputs/microgrid_sys/scripts/thermal_shock_case.py",
+    "source": "upstream/outputs/microgrid_sys/scripts/thermal_shock_case.py",
+    "source_sha256": "0001d7531e7a9b700dcdaf814d62154d04afbbc9bd80d05a232e3d5abc69ae1e"
+  },
+  {
+    "file": "outputs/microgrid_sys/data/load_profiles_24h.csv",
+    "source": "upstream/outputs/microgrid_sys/data/load_profiles_24h.csv",
+    "source_sha256": "6a8ef2ca4a907f93314ecfd9b99175c64d7c304a57a57f48a0b1777839871fce"
+  },
+  {
+    "file": "outputs/microgrid_sys/data/re_profiles_24h.csv",
+    "source": "upstream/outputs/microgrid_sys/data/re_profiles_24h.csv",
+    "source_sha256": "0d4a9589fca7cb876681362e9261b62cf3e3ce4b453bbccf4943344449fff8ab"
+  },
+  {
+    "file": "outputs/microgrid_sys/data/pinn_lut_v20.npz",
+    "source": "upstream/outputs/microgrid_sys/data/pinn_lut_v20.npz",
+    "source_sha256": "0466d2b810e281a90d7c8ca38aa672487e3b0ce18e7266d1d2c50afbfadedbcb"
+  },
+  {
+    "file": "outputs/pinn_sofc/data/__init__.py",
+    "source": "upstream/outputs/pinn_sofc/data/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "outputs/pinn_sofc/data/dataset.py",
+    "source": "upstream/outputs/pinn_sofc/data/dataset.py",
+    "source_sha256": "990446745777f23d5bf0aad830b172af1a8bb0812aec2284688c945dcd63305b"
+  },
+  {
+    "file": "outputs/pinn_sofc/data/split.py",
+    "source": "upstream/outputs/pinn_sofc/data/split.py",
+    "source_sha256": "ba68cdce86f2ebc945fcc9b62a084de9e621e236131e12404e45a95c74dfca1a"
+  },
+  {
+    "file": "outputs/pinn_sofc/models/__init__.py",
+    "source": "upstream/outputs/pinn_sofc/models/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "outputs/pinn_sofc/models/film.py",
+    "source": "upstream/outputs/pinn_sofc/models/film.py",
+    "source_sha256": "a60cbe967f9469cbaa6720114072d6374d9a8a0e7d71a2710d09632ecd3f082b"
+  },
+  {
+    "file": "outputs/pinn_sofc/models/fourier.py",
+    "source": "upstream/outputs/pinn_sofc/models/fourier.py",
+    "source_sha256": "d246a72df197388c4de9fc0f8082f95cd23519356aad616aacdea4a9075e38b5"
+  },
+  {
+    "file": "outputs/pinn_sofc/models/pinn.py",
+    "source": "upstream/outputs/pinn_sofc/models/pinn.py",
+    "source_sha256": "e99bf98c89376f487c2adf2b8992864823bd51d588535181ff3dc7b718b7be59"
+  },
+  {
+    "file": "outputs/pinn_sofc/losses/__init__.py",
+    "source": "upstream/outputs/pinn_sofc/losses/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "outputs/pinn_sofc/losses/losses.py",
+    "source": "upstream/outputs/pinn_sofc/losses/losses.py",
+    "source_sha256": "aa40787d968bab64997dc1bab2ca43ee34c9803d20398b21f5c20a45ec671bda"
+  },
+  {
+    "file": "outputs/pinn_sofc/physics/__init__.py",
+    "source": "upstream/outputs/pinn_sofc/physics/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "outputs/pinn_sofc/physics/domains.py",
+    "source": "upstream/outputs/pinn_sofc/physics/domains.py",
+    "source_sha256": "0ad10ee5d6aec88763d5528e619054b148011a7a57785d6dce07b42c8d7f208a"
+  },
+  {
+    "file": "outputs/pinn_sofc/physics/params.py",
+    "source": "upstream/outputs/pinn_sofc/physics/params.py",
+    "source_sha256": "3f3616e9b5e137c1031583b6a372460c7a6f7e813cca1a05da7b6ee8eafc0052"
+  },
+  {
+    "file": "outputs/pinn_sofc/physics/pde.py",
+    "source": "upstream/outputs/pinn_sofc/physics/pde.py",
+    "source_sha256": "12258c4c5868283720c509841002c86d4fbc881ce31619d001389d5b960861bb"
+  },
+  {
+    "file": "outputs/pinn_sofc/physics/waveforms.py",
+    "source": "upstream/outputs/pinn_sofc/physics/waveforms.py",
+    "source_sha256": "f0f5926b6abebd987a2a7818f4bdf3415d9a7c2729cd988b25e8134a56856796"
+  },
+  {
+    "file": "outputs/pinn_sofc/train.py",
+    "source": "upstream/outputs/pinn_sofc/train.py",
+    "source_sha256": "c02ddd1bf8fbdbf1af3c03e4508a25a3874c9a9f054ce6e4df03c7603708253a"
+  },
+  {
+    "file": "outputs/pinn_sofc/checkpointing.py",
+    "source": "upstream/outputs/pinn_sofc/checkpointing.py",
+    "source_sha256": "3db8bab9f5caddcefc0d033417ffe7b604cdabf9a46fe90dc60dd7c99929f7fb"
+  },
+  {
+    "file": "outputs/pinn_sofc/evaluate.py",
+    "source": "upstream/outputs/pinn_sofc/evaluate.py",
+    "source_sha256": "a3f9072c08c3c5250007fe8ac0fe81ef4343137ac2a01ffed4b95a26412581c5"
+  },
+  {
+    "file": "outputs/pinn_sofc/export_onnx.py",
+    "source": "upstream/outputs/pinn_sofc/export_onnx.py",
+    "source_sha256": "35d4a90db32677f3a055a770d7891a83d9bedee518ce426b7955fdc6a9fb0634"
+  },
+  {
+    "file": "outputs/pinn_sofc/plot_fields.py",
+    "source": "upstream/outputs/pinn_sofc/plot_fields.py",
+    "source_sha256": "a443f103fd32bfb16506ec357e3ca527ddbbd7d392cdf15355e11e3fe4a3f992"
+  },
+  {
+    "file": "outputs/pinn_sofc/run_regression.py",
+    "source": "upstream/outputs/pinn_sofc/run_regression.py",
+    "source_sha256": "e51c01b0b4f2b1924a1277826a76c70708a7773acd6e264fd591ca36d7eec99a"
+  },
+  {
+    "file": "outputs/pinn_sofc/config_v19.yaml",
+    "source": "upstream/outputs/pinn_sofc/config_v19.yaml",
+    "source_sha256": "1f644de1f76f0a8261a01dae970b9bd2310592f657cb46ae450b28227d4fc88d"
+  },
+  {
+    "file": "outputs/pinn_sofc/config_v20.yaml",
+    "source": "upstream/outputs/pinn_sofc/config_v20.yaml",
+    "source_sha256": "3b5060cee723b9c2b02f1aa2f88a0e3d0cb3a9b67c56d6b69639b48025f09b91"
+  },
+  {
+    "file": "outputs/pinn_sofc/config_v20_smoke.yaml",
+    "source": "upstream/outputs/pinn_sofc/config_v20_smoke.yaml",
+    "source_sha256": "20a891dbbc9cebbc05957e045dd44a91c74ea8fe68d5c32d63b590c1f5f3976d"
+  },
+  {
+    "file": "outputs/pinn_sofc/config_v20_nopde.yaml",
+    "source": "upstream/outputs/pinn_sofc/config_v20_nopde.yaml",
+    "source_sha256": "023a0de471ef84052461c9f53f45f38e70ba069261d7106a8c3e04a3d389ac9e"
+  },
+  {
+    "file": "outputs/pinn_sofc/scripts/doe_b4_clean.py",
+    "source": "upstream/outputs/pinn_sofc/scripts/doe_b4_clean.py",
+    "source_sha256": "a7479e3057663bacb208c8539c24f1cb2f33d5bc6a3dfca6fae71d175b670665"
+  },
+  {
+    "file": "outputs/pinn_sofc/scripts/doe_cont_clean.py",
+    "source": "upstream/outputs/pinn_sofc/scripts/doe_cont_clean.py",
+    "source_sha256": "516ff472531729ea86622694833742707e285d1c0791dcf2b6d5f6c3fd91da22"
+  },
+  {
+    "file": "outputs/pinn_sofc/scripts/doe_ext_clean.py",
+    "source": "upstream/outputs/pinn_sofc/scripts/doe_ext_clean.py",
+    "source_sha256": "05f12cd399477d3282bb77652d04d747f9288b681d343ef975c05b69296c690e"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/electrochem_corrected_20261015/trainer/checkpointing.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/electrochem_corrected_20261015/trainer/checkpointing.py",
+    "source_sha256": "7506a392c23343ac8ec2d8f2b6929e77de1051dcccae99e40057c029781c5909"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/electrochem_corrected_20261015/trainer/data/__init__.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/electrochem_corrected_20261015/trainer/data/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/electrochem_corrected_20261015/trainer/data/dataset.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/electrochem_corrected_20261015/trainer/data/dataset.py",
+    "source_sha256": "f9201d1c24a19d1bb1b5ad8a3e0b76406d7602bcccb5ce516203a396c84c95b2"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/electrochem_corrected_20261015/trainer/data/split.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/electrochem_corrected_20261015/trainer/data/split.py",
+    "source_sha256": "ba68cdce86f2ebc945fcc9b62a084de9e621e236131e12404e45a95c74dfca1a"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/electrochem_corrected_20261015/trainer/losses/__init__.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/electrochem_corrected_20261015/trainer/losses/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/electrochem_corrected_20261015/trainer/losses/losses.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/electrochem_corrected_20261015/trainer/losses/losses.py",
+    "source_sha256": "aa40787d968bab64997dc1bab2ca43ee34c9803d20398b21f5c20a45ec671bda"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/electrochem_corrected_20261015/trainer/models/__init__.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/electrochem_corrected_20261015/trainer/models/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/electrochem_corrected_20261015/trainer/models/film.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/electrochem_corrected_20261015/trainer/models/film.py",
+    "source_sha256": "a60cbe967f9469cbaa6720114072d6374d9a8a0e7d71a2710d09632ecd3f082b"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/electrochem_corrected_20261015/trainer/models/fourier.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/electrochem_corrected_20261015/trainer/models/fourier.py",
+    "source_sha256": "d246a72df197388c4de9fc0f8082f95cd23519356aad616aacdea4a9075e38b5"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/electrochem_corrected_20261015/trainer/models/pinn.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/electrochem_corrected_20261015/trainer/models/pinn.py",
+    "source_sha256": "e99bf98c89376f487c2adf2b8992864823bd51d588535181ff3dc7b718b7be59"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/electrochem_corrected_20261015/trainer/physics/__init__.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/electrochem_corrected_20261015/trainer/physics/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/electrochem_corrected_20261015/trainer/physics/domains.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/electrochem_corrected_20261015/trainer/physics/domains.py",
+    "source_sha256": "0ad10ee5d6aec88763d5528e619054b148011a7a57785d6dce07b42c8d7f208a"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/electrochem_corrected_20261015/trainer/physics/electrochem.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/electrochem_corrected_20261015/trainer/physics/electrochem.py",
+    "source_sha256": "e560962fb03c89556d2a85c2dfc469655ec6dbbcc4734b6894550659a7fcfea9"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/electrochem_corrected_20261015/trainer/physics/equations_core.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/electrochem_corrected_20261015/trainer/physics/equations_core.py",
+    "source_sha256": "4160d91aa0d7e7e1c07151a4b64abaf281c5399b6cd5dd5a769cb7fce118d8ed"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/electrochem_corrected_20261015/trainer/physics/gradient_budget.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/electrochem_corrected_20261015/trainer/physics/gradient_budget.py",
+    "source_sha256": "c9ded58930732f522ba43fa094d14f5fddaf3d4fab897fba6601d361476e8698"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/electrochem_corrected_20261015/trainer/physics/params.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/electrochem_corrected_20261015/trainer/physics/params.py",
+    "source_sha256": "cf3a91d7c96a59d902cbed7fd0913b5a93c0523c3a694edd2642f8d2fb8b3680"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/electrochem_corrected_20261015/trainer/physics/pde.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/electrochem_corrected_20261015/trainer/physics/pde.py",
+    "source_sha256": "dfe36ba0c6f58ecdd7c6470dfd013dd2de0b9e3cde6b81db4605177d0e66eb65"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/electrochem_corrected_20261015/trainer/physics/thermal_operators.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/electrochem_corrected_20261015/trainer/physics/thermal_operators.py",
+    "source_sha256": "4d2de7e421e3dc014ee7aea16ee9139c74328ab2b2eb905af619ed6ef17915af"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/electrochem_corrected_20261015/trainer/physics/waveforms.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/electrochem_corrected_20261015/trainer/physics/waveforms.py",
+    "source_sha256": "f0f5926b6abebd987a2a7818f4bdf3415d9a7c2729cd988b25e8134a56856796"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/electrochem_corrected_20261015/trainer/train.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/electrochem_corrected_20261015/trainer/train.py",
+    "source_sha256": "3f632b3a5f73cd9501cf165a99305ff63a1c106c87df4d1a958b5377040588ce"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/electrochem_corrected_20261015/configs/echem_pilot_continuous.yaml",
+    "source": "upstream/outputs/pinn_sofc/experiments/electrochem_corrected_20261015/configs/echem_pilot_continuous.yaml",
+    "source_sha256": "ed4d28c56a19417fc8c855b408ef56948236ce66750201024ccde205905d6a52"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/electrochem_corrected_20261015/configs/echem_pilot_resume.yaml",
+    "source": "upstream/outputs/pinn_sofc/experiments/electrochem_corrected_20261015/configs/echem_pilot_resume.yaml",
+    "source_sha256": "79fc55ad68742e8438c775db3365f24c112d07b5c5abc5d192701691d6ad85c4"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/electrochem_corrected_20261015/configs/pilot_continuous.yaml",
+    "source": "upstream/outputs/pinn_sofc/experiments/electrochem_corrected_20261015/configs/pilot_continuous.yaml",
+    "source_sha256": "9f0e8a1d175a6f415658c37082e18edb6cde6775d5241d5049ab486ea7c3fac5"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/electrochem_corrected_20261015/configs/pilot_resume.yaml",
+    "source": "upstream/outputs/pinn_sofc/experiments/electrochem_corrected_20261015/configs/pilot_resume.yaml",
+    "source_sha256": "9f0e8a1d175a6f415658c37082e18edb6cde6775d5241d5049ab486ea7c3fac5"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/electrochem_corrected_20261015/configs/seed42_data_only.yaml",
+    "source": "upstream/outputs/pinn_sofc/experiments/electrochem_corrected_20261015/configs/seed42_data_only.yaml",
+    "source_sha256": "1b4de9d44e9e76027363543da66dcc98262f6a88dd7ce3e23610c3c40d9a1669"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/electrochem_corrected_20261015/configs/seed42_pinn.yaml",
+    "source": "upstream/outputs/pinn_sofc/experiments/electrochem_corrected_20261015/configs/seed42_pinn.yaml",
+    "source_sha256": "3556faf042a582e6b7d7ed3a01212796033df2e0fcd56620d9e7d1331c97a66c"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/trainer/checkpointing.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/trainer/checkpointing.py",
+    "source_sha256": "4a73709bd4402b905048479ed002d3edaa41b1700ca6f482600cddc1b93006b4"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/trainer/data/__init__.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/trainer/data/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/trainer/data/dataset.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/trainer/data/dataset.py",
+    "source_sha256": "f9201d1c24a19d1bb1b5ad8a3e0b76406d7602bcccb5ce516203a396c84c95b2"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/trainer/data/split.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/trainer/data/split.py",
+    "source_sha256": "ba68cdce86f2ebc945fcc9b62a084de9e621e236131e12404e45a95c74dfca1a"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/trainer/losses/__init__.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/trainer/losses/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/trainer/losses/losses.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/trainer/losses/losses.py",
+    "source_sha256": "aa40787d968bab64997dc1bab2ca43ee34c9803d20398b21f5c20a45ec671bda"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/trainer/models/__init__.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/trainer/models/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/trainer/models/film.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/trainer/models/film.py",
+    "source_sha256": "a60cbe967f9469cbaa6720114072d6374d9a8a0e7d71a2710d09632ecd3f082b"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/trainer/models/fourier.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/trainer/models/fourier.py",
+    "source_sha256": "d246a72df197388c4de9fc0f8082f95cd23519356aad616aacdea4a9075e38b5"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/trainer/models/pinn.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/trainer/models/pinn.py",
+    "source_sha256": "e99bf98c89376f487c2adf2b8992864823bd51d588535181ff3dc7b718b7be59"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/trainer/physics/__init__.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/trainer/physics/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/trainer/physics/domains.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/trainer/physics/domains.py",
+    "source_sha256": "0ad10ee5d6aec88763d5528e619054b148011a7a57785d6dce07b42c8d7f208a"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/trainer/physics/electrochem.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/trainer/physics/electrochem.py",
+    "source_sha256": "e560962fb03c89556d2a85c2dfc469655ec6dbbcc4734b6894550659a7fcfea9"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/trainer/physics/equations_core.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/trainer/physics/equations_core.py",
+    "source_sha256": "4160d91aa0d7e7e1c07151a4b64abaf281c5399b6cd5dd5a769cb7fce118d8ed"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/trainer/physics/gradient_budget.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/trainer/physics/gradient_budget.py",
+    "source_sha256": "d6b6318d122704db37ee62056819da8fd207fbe2623edaec9b851d0bf67adc17"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/trainer/physics/params.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/trainer/physics/params.py",
+    "source_sha256": "cf3a91d7c96a59d902cbed7fd0913b5a93c0523c3a694edd2642f8d2fb8b3680"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/trainer/physics/pde.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/trainer/physics/pde.py",
+    "source_sha256": "926b85c8f42ece7f8e98129ffc1300a26c68ee2edcc54294ad52b17baee8d667"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/trainer/physics/semantic_interface.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/trainer/physics/semantic_interface.py",
+    "source_sha256": "8d5d4e6e1056ecdc84d04a096b2c8f159a21751d0ca84c4279bce58c91b824cc"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/trainer/physics/thermal_operators.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/trainer/physics/thermal_operators.py",
+    "source_sha256": "4d2de7e421e3dc014ee7aea16ee9139c74328ab2b2eb905af619ed6ef17915af"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/trainer/physics/waveforms.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/trainer/physics/waveforms.py",
+    "source_sha256": "f0f5926b6abebd987a2a7818f4bdf3415d9a7c2729cd988b25e8134a56856796"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/trainer/train.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/trainer/train.py",
+    "source_sha256": "df10d125fc240adad07035b5be34e1604f23ed9bd48aa5b6d21d788fdd55915b"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/configs/group.yaml",
+    "source": "upstream/outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/configs/group.yaml",
+    "source_sha256": "42da029f745cc91468fb5e46ad24f34a276975dc0669d2dd7364457a6ce6edad"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/configs/pilot_continuous.yaml",
+    "source": "upstream/outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/configs/pilot_continuous.yaml",
+    "source_sha256": "8d22bceac686c7d1cf600fd7174e7154c8a58349d410e7dff919765f114c4ffa"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/configs/pilot_resume.yaml",
+    "source": "upstream/outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/configs/pilot_resume.yaml",
+    "source_sha256": "8d22bceac686c7d1cf600fd7174e7154c8a58349d410e7dff919765f114c4ffa"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/configs/semantic.yaml",
+    "source": "upstream/outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/configs/semantic.yaml",
+    "source_sha256": "8a218fb7858d4ed034285842b17ce06b98a748858e2bc2f24ab4dee8cbf51ca2"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/configs/semantic_pilot_continuous.yaml",
+    "source": "upstream/outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/configs/semantic_pilot_continuous.yaml",
+    "source_sha256": "ae7187456a6cd005574dfd52da80bef0cde2461e5c167e1ef9e1d3f7f715e10f"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/configs/semantic_pilot_resume.yaml",
+    "source": "upstream/outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/configs/semantic_pilot_resume.yaml",
+    "source_sha256": "3bfaef9a7fa1e6314be6630b89bf35571dc44e6ece1f7dcc27c219b7a28b8b49"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/configs/semantic_pilot_v2_continuous.yaml",
+    "source": "upstream/outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/configs/semantic_pilot_v2_continuous.yaml",
+    "source_sha256": "3d49e0f707941a8cb0104b057e4b2411cbbaa214ea64433e45c6ab9bfdde30b6"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/configs/semantic_pilot_v2_resume.yaml",
+    "source": "upstream/outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/configs/semantic_pilot_v2_resume.yaml",
+    "source_sha256": "25d406f7223b6203339cffd18d9f8b74d4446c9b5a41af93613a7f1081e20715"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/configs/semantic_pilot_v3_continuous.yaml",
+    "source": "upstream/outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/configs/semantic_pilot_v3_continuous.yaml",
+    "source_sha256": "891636022f6cb02a8ea5df34ecd6bcd850851b9cdf1892b9d79abbcd504df535"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/configs/semantic_pilot_v3_resume.yaml",
+    "source": "upstream/outputs/pinn_sofc/experiments/interface_semantic_budget_20261015/configs/semantic_pilot_v3_resume.yaml",
+    "source_sha256": "92bf145f48ca5cdc10b88dfce02f3f468c9cc9540f3286399bf3d6224312fe22"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/paired_20261014/trainer/checkpointing.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/paired_20261014/trainer/checkpointing.py",
+    "source_sha256": "3db8bab9f5caddcefc0d033417ffe7b604cdabf9a46fe90dc60dd7c99929f7fb"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/paired_20261014/trainer/data/__init__.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/paired_20261014/trainer/data/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/paired_20261014/trainer/data/dataset.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/paired_20261014/trainer/data/dataset.py",
+    "source_sha256": "efd6f6231ce73bc47abaa8bc50112542ed49daf8cc840c024070be3f41083487"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/paired_20261014/trainer/data/split.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/paired_20261014/trainer/data/split.py",
+    "source_sha256": "ba68cdce86f2ebc945fcc9b62a084de9e621e236131e12404e45a95c74dfca1a"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/paired_20261014/trainer/losses/__init__.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/paired_20261014/trainer/losses/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/paired_20261014/trainer/losses/losses.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/paired_20261014/trainer/losses/losses.py",
+    "source_sha256": "aa40787d968bab64997dc1bab2ca43ee34c9803d20398b21f5c20a45ec671bda"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/paired_20261014/trainer/models/__init__.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/paired_20261014/trainer/models/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/paired_20261014/trainer/models/film.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/paired_20261014/trainer/models/film.py",
+    "source_sha256": "a60cbe967f9469cbaa6720114072d6374d9a8a0e7d71a2710d09632ecd3f082b"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/paired_20261014/trainer/models/fourier.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/paired_20261014/trainer/models/fourier.py",
+    "source_sha256": "d246a72df197388c4de9fc0f8082f95cd23519356aad616aacdea4a9075e38b5"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/paired_20261014/trainer/models/pinn.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/paired_20261014/trainer/models/pinn.py",
+    "source_sha256": "e99bf98c89376f487c2adf2b8992864823bd51d588535181ff3dc7b718b7be59"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/paired_20261014/trainer/physics/__init__.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/paired_20261014/trainer/physics/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/paired_20261014/trainer/physics/domains.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/paired_20261014/trainer/physics/domains.py",
+    "source_sha256": "0ad10ee5d6aec88763d5528e619054b148011a7a57785d6dce07b42c8d7f208a"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/paired_20261014/trainer/physics/params.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/paired_20261014/trainer/physics/params.py",
+    "source_sha256": "3f3616e9b5e137c1031583b6a372460c7a6f7e813cca1a05da7b6ee8eafc0052"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/paired_20261014/trainer/physics/pde.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/paired_20261014/trainer/physics/pde.py",
+    "source_sha256": "12258c4c5868283720c509841002c86d4fbc881ce31619d001389d5b960861bb"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/paired_20261014/trainer/physics/waveforms.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/paired_20261014/trainer/physics/waveforms.py",
+    "source_sha256": "f0f5926b6abebd987a2a7818f4bdf3415d9a7c2729cd988b25e8134a56856796"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/paired_20261014/trainer/tests/resume_fixture.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/paired_20261014/trainer/tests/resume_fixture.py",
+    "source_sha256": "ddce37d5ceabe92796ac945a4445631c204085139312b19326ace5ff11836c41"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/paired_20261014/trainer/train.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/paired_20261014/trainer/train.py",
+    "source_sha256": "5171bcb9be95b942b5240e8f572f28526f6aea36c77b37ebcb1f029d157fbcdb"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/paired_corrected_20261015_stage12/trainer/checkpointing.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/paired_corrected_20261015_stage12/trainer/checkpointing.py",
+    "source_sha256": "e0d29f4916237ac0ee9d256def8709cde4be7121f1362d07e6af295a62b47196"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/paired_corrected_20261015_stage12/trainer/data/__init__.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/paired_corrected_20261015_stage12/trainer/data/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/paired_corrected_20261015_stage12/trainer/data/dataset.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/paired_corrected_20261015_stage12/trainer/data/dataset.py",
+    "source_sha256": "f9201d1c24a19d1bb1b5ad8a3e0b76406d7602bcccb5ce516203a396c84c95b2"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/paired_corrected_20261015_stage12/trainer/data/split.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/paired_corrected_20261015_stage12/trainer/data/split.py",
+    "source_sha256": "ba68cdce86f2ebc945fcc9b62a084de9e621e236131e12404e45a95c74dfca1a"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/paired_corrected_20261015_stage12/trainer/losses/__init__.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/paired_corrected_20261015_stage12/trainer/losses/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/paired_corrected_20261015_stage12/trainer/losses/losses.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/paired_corrected_20261015_stage12/trainer/losses/losses.py",
+    "source_sha256": "aa40787d968bab64997dc1bab2ca43ee34c9803d20398b21f5c20a45ec671bda"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/paired_corrected_20261015_stage12/trainer/models/__init__.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/paired_corrected_20261015_stage12/trainer/models/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/paired_corrected_20261015_stage12/trainer/models/film.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/paired_corrected_20261015_stage12/trainer/models/film.py",
+    "source_sha256": "a60cbe967f9469cbaa6720114072d6374d9a8a0e7d71a2710d09632ecd3f082b"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/paired_corrected_20261015_stage12/trainer/models/fourier.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/paired_corrected_20261015_stage12/trainer/models/fourier.py",
+    "source_sha256": "d246a72df197388c4de9fc0f8082f95cd23519356aad616aacdea4a9075e38b5"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/paired_corrected_20261015_stage12/trainer/models/pinn.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/paired_corrected_20261015_stage12/trainer/models/pinn.py",
+    "source_sha256": "e99bf98c89376f487c2adf2b8992864823bd51d588535181ff3dc7b718b7be59"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/paired_corrected_20261015_stage12/trainer/physics/__init__.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/paired_corrected_20261015_stage12/trainer/physics/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/paired_corrected_20261015_stage12/trainer/physics/domains.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/paired_corrected_20261015_stage12/trainer/physics/domains.py",
+    "source_sha256": "0ad10ee5d6aec88763d5528e619054b148011a7a57785d6dce07b42c8d7f208a"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/paired_corrected_20261015_stage12/trainer/physics/equations_core.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/paired_corrected_20261015_stage12/trainer/physics/equations_core.py",
+    "source_sha256": "7d461636ff107c1cadb27555ea92b4a0eac2aaf96ecffe75990c071be3135134"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/paired_corrected_20261015_stage12/trainer/physics/gradient_budget.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/paired_corrected_20261015_stage12/trainer/physics/gradient_budget.py",
+    "source_sha256": "c9ded58930732f522ba43fa094d14f5fddaf3d4fab897fba6601d361476e8698"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/paired_corrected_20261015_stage12/trainer/physics/params.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/paired_corrected_20261015_stage12/trainer/physics/params.py",
+    "source_sha256": "3f3616e9b5e137c1031583b6a372460c7a6f7e813cca1a05da7b6ee8eafc0052"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/paired_corrected_20261015_stage12/trainer/physics/pde.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/paired_corrected_20261015_stage12/trainer/physics/pde.py",
+    "source_sha256": "858b60f9f1888f6fec6d8217abae4bd03f9bbfed47d4d6a4b3e8d48cf24dc7b2"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/paired_corrected_20261015_stage12/trainer/physics/thermal_operators.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/paired_corrected_20261015_stage12/trainer/physics/thermal_operators.py",
+    "source_sha256": "4d2de7e421e3dc014ee7aea16ee9139c74328ab2b2eb905af619ed6ef17915af"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/paired_corrected_20261015_stage12/trainer/physics/waveforms.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/paired_corrected_20261015_stage12/trainer/physics/waveforms.py",
+    "source_sha256": "f0f5926b6abebd987a2a7818f4bdf3415d9a7c2729cd988b25e8134a56856796"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/paired_corrected_20261015_stage12/trainer/train.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/paired_corrected_20261015_stage12/trainer/train.py",
+    "source_sha256": "36a1b8c87c2d992870fe3db4044c99546ea88f3dd50e3f76569735a8fff87fe8"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/paired_corrected_20261015_stage12/configs/seed42_data_only.yaml",
+    "source": "upstream/outputs/pinn_sofc/experiments/paired_corrected_20261015_stage12/configs/seed42_data_only.yaml",
+    "source_sha256": "0e6fd223710201d1528ea6cdfac795e6dc0e5de860bf8fe462bc01f96a87d6a7"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/paired_corrected_20261015_stage12/configs/seed42_pinn.yaml",
+    "source": "upstream/outputs/pinn_sofc/experiments/paired_corrected_20261015_stage12/configs/seed42_pinn.yaml",
+    "source_sha256": "a8cabca2a43a4d39dd945c28771039653ba8bf28fd115180115b468e479b9e8d"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/physics_corrected_20261015/trainer/checkpointing.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/physics_corrected_20261015/trainer/checkpointing.py",
+    "source_sha256": "e0d29f4916237ac0ee9d256def8709cde4be7121f1362d07e6af295a62b47196"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/physics_corrected_20261015/trainer/data/__init__.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/physics_corrected_20261015/trainer/data/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/physics_corrected_20261015/trainer/data/dataset.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/physics_corrected_20261015/trainer/data/dataset.py",
+    "source_sha256": "f9201d1c24a19d1bb1b5ad8a3e0b76406d7602bcccb5ce516203a396c84c95b2"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/physics_corrected_20261015/trainer/data/split.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/physics_corrected_20261015/trainer/data/split.py",
+    "source_sha256": "ba68cdce86f2ebc945fcc9b62a084de9e621e236131e12404e45a95c74dfca1a"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/physics_corrected_20261015/trainer/losses/__init__.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/physics_corrected_20261015/trainer/losses/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/physics_corrected_20261015/trainer/losses/losses.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/physics_corrected_20261015/trainer/losses/losses.py",
+    "source_sha256": "aa40787d968bab64997dc1bab2ca43ee34c9803d20398b21f5c20a45ec671bda"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/physics_corrected_20261015/trainer/models/__init__.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/physics_corrected_20261015/trainer/models/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/physics_corrected_20261015/trainer/models/film.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/physics_corrected_20261015/trainer/models/film.py",
+    "source_sha256": "a60cbe967f9469cbaa6720114072d6374d9a8a0e7d71a2710d09632ecd3f082b"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/physics_corrected_20261015/trainer/models/fourier.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/physics_corrected_20261015/trainer/models/fourier.py",
+    "source_sha256": "d246a72df197388c4de9fc0f8082f95cd23519356aad616aacdea4a9075e38b5"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/physics_corrected_20261015/trainer/models/pinn.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/physics_corrected_20261015/trainer/models/pinn.py",
+    "source_sha256": "e99bf98c89376f487c2adf2b8992864823bd51d588535181ff3dc7b718b7be59"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/physics_corrected_20261015/trainer/physics/__init__.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/physics_corrected_20261015/trainer/physics/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/physics_corrected_20261015/trainer/physics/domains.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/physics_corrected_20261015/trainer/physics/domains.py",
+    "source_sha256": "0ad10ee5d6aec88763d5528e619054b148011a7a57785d6dce07b42c8d7f208a"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/physics_corrected_20261015/trainer/physics/equations_core.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/physics_corrected_20261015/trainer/physics/equations_core.py",
+    "source_sha256": "7d461636ff107c1cadb27555ea92b4a0eac2aaf96ecffe75990c071be3135134"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/physics_corrected_20261015/trainer/physics/gradient_budget.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/physics_corrected_20261015/trainer/physics/gradient_budget.py",
+    "source_sha256": "c9ded58930732f522ba43fa094d14f5fddaf3d4fab897fba6601d361476e8698"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/physics_corrected_20261015/trainer/physics/params.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/physics_corrected_20261015/trainer/physics/params.py",
+    "source_sha256": "3f3616e9b5e137c1031583b6a372460c7a6f7e813cca1a05da7b6ee8eafc0052"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/physics_corrected_20261015/trainer/physics/pde.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/physics_corrected_20261015/trainer/physics/pde.py",
+    "source_sha256": "858b60f9f1888f6fec6d8217abae4bd03f9bbfed47d4d6a4b3e8d48cf24dc7b2"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/physics_corrected_20261015/trainer/physics/thermal_operators.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/physics_corrected_20261015/trainer/physics/thermal_operators.py",
+    "source_sha256": "4d2de7e421e3dc014ee7aea16ee9139c74328ab2b2eb905af619ed6ef17915af"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/physics_corrected_20261015/trainer/physics/waveforms.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/physics_corrected_20261015/trainer/physics/waveforms.py",
+    "source_sha256": "f0f5926b6abebd987a2a7818f4bdf3415d9a7c2729cd988b25e8134a56856796"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/physics_corrected_20261015/trainer/tests/resume_fixture.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/physics_corrected_20261015/trainer/tests/resume_fixture.py",
+    "source_sha256": "ddce37d5ceabe92796ac945a4445631c204085139312b19326ace5ff11836c41"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/physics_corrected_20261015/trainer/train.py",
+    "source": "upstream/outputs/pinn_sofc/experiments/physics_corrected_20261015/trainer/train.py",
+    "source_sha256": "36a1b8c87c2d992870fe3db4044c99546ea88f3dd50e3f76569735a8fff87fe8"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/physics_corrected_20261015/configs/corrected_formal_template.yaml",
+    "source": "upstream/outputs/pinn_sofc/experiments/physics_corrected_20261015/configs/corrected_formal_template.yaml",
+    "source_sha256": "d9df2e9c089ba29ae59668289aacf11a28640119e33bbea649bd75f772904793"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/physics_corrected_20261015/configs/pilot_continuous.yaml",
+    "source": "upstream/outputs/pinn_sofc/experiments/physics_corrected_20261015/configs/pilot_continuous.yaml",
+    "source_sha256": "7c848749b4d5cf78d584f1f97e5921decd50e3d873a031503b9a8ee766e0a5f6"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/physics_corrected_20261015/configs/pilot_resume.yaml",
+    "source": "upstream/outputs/pinn_sofc/experiments/physics_corrected_20261015/configs/pilot_resume.yaml",
+    "source_sha256": "71baeb7c4d4295f93ac0c88cfca9f6c24783ca0aa4627907d3c7ca5a8606bf10"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/physics_corrected_20261015/configs/pilot_v2_continuous.yaml",
+    "source": "upstream/outputs/pinn_sofc/experiments/physics_corrected_20261015/configs/pilot_v2_continuous.yaml",
+    "source_sha256": "5f7020a46f548db044a592604e71d82072638a933b43c0588e187b6492f5e39c"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/physics_corrected_20261015/configs/pilot_v2_resume.yaml",
+    "source": "upstream/outputs/pinn_sofc/experiments/physics_corrected_20261015/configs/pilot_v2_resume.yaml",
+    "source_sha256": "9cc3bd8ea81cec83f725991d56ad65677641beeb90e89fdbf6e28bcb1263a2cc"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/physics_corrected_20261015/configs/pilot_v3_continuous.yaml",
+    "source": "upstream/outputs/pinn_sofc/experiments/physics_corrected_20261015/configs/pilot_v3_continuous.yaml",
+    "source_sha256": "973f7ad8983546a295666d4db14fc9b375e5df82120e5b023cfa5883046cd7d2"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/physics_corrected_20261015/configs/pilot_v3_resume.yaml",
+    "source": "upstream/outputs/pinn_sofc/experiments/physics_corrected_20261015/configs/pilot_v3_resume.yaml",
+    "source_sha256": "a4f7854856ea124a63c13e0fa3b6b2e63f01f8f90571218dde5b94c01afe444c"
+  },
+  {
+    "file": "outputs/pinn_sofc/runs/stage3_pde_v20/final.pt",
+    "source": "upstream/outputs/pinn_sofc/runs/stage3_pde_v20/final.pt",
+    "source_sha256": "249a3ba2075b53bfff69e0c79fa9ab7e63c91ed6d5d4f62f62cfc7cba8be01b6"
+  },
+  {
+    "file": "outputs/pinn_sofc/runs/stage3_pde_v20/pinn_sofc_v20.onnx",
+    "source": "upstream/outputs/pinn_sofc/runs/stage3_pde_v20/pinn_sofc_v20.onnx",
+    "source_sha256": "db52504ecfef831b540d374008e013ab1bd72e8c202b9e9a1d3251f9754102a2"
+  },
+  {
+    "file": "outputs/pinn_sofc/runs/stage3_pde_v20/norm_stats.json",
+    "source": "upstream/outputs/pinn_sofc/runs/stage3_pde_v20/norm_stats.json",
+    "source_sha256": "786fc7770572eaa011c4dd4fea89115c07480a2cae69cbb07a1af429838ba3f7"
+  },
+  {
+    "file": "outputs/pinn_sofc/runs/stage3_pde_v20/masks.json",
+    "source": "upstream/outputs/pinn_sofc/runs/stage3_pde_v20/masks.json",
+    "source_sha256": "fd0abaefd4b8ed672378fea6a556c7de96dbbea046cf8b63a957343849a2c4f1"
+  },
+  {
+    "file": "outputs/pinn_sofc/runs/stage3_pde_v20/config.yaml",
+    "source": "upstream/outputs/pinn_sofc/runs/stage3_pde_v20/config.yaml",
+    "source_sha256": "688f9ed5261e4d6d2a1b66ebca4943f20d90fc2f5e6bb10083ea6f83d837b4bd"
+  },
+  {
+    "file": "outputs/pinn_sofc/runs/stage3_pde_v20/eval_metrics_final.csv",
+    "source": "upstream/outputs/pinn_sofc/runs/stage3_pde_v20/eval_metrics_final.csv",
+    "source_sha256": "92e57963ab54b9dfc52e6a7b0cf37f87d3819413efacfd0575ae30d0a151ee70"
+  },
+  {
+    "file": "outputs/pinn_sofc/runs/stage3_pde_v19/best.pt",
+    "source": "upstream/outputs/pinn_sofc/runs/stage3_pde_v19/best.pt",
+    "source_sha256": "ef7e78386f822c364d84385c8c61d0df479c347a470c88e62804c158c54c04fc"
+  },
+  {
+    "file": "outputs/pinndata/doe/conditions.json",
+    "source": "upstream/outputs/pinndata/doe/conditions.json",
+    "source_sha256": "e93b6290dbcccc2e01510b8e373834201eb064a89c2b471b4eaa80793bf098e3"
+  },
+  {
+    "file": "outputs/pinndata/doe/metadata.csv",
+    "source": "upstream/outputs/pinndata/doe/metadata.csv",
+    "source_sha256": "e068e7b49de9a84cea357eb3250bb7c05244c7979f48e45329fe73df1e1d87b4"
+  },
+  {
+    "file": "outputs/pinndata/doe_b4/conditions.json",
+    "source": "upstream/outputs/pinndata/doe_b4/conditions.json",
+    "source_sha256": "e9bc0a83744f4f7305146cf728727f2b00bee0d6f9c6cfe3456bcafb77803312"
+  },
+  {
+    "file": "outputs/pinndata/doe_cont/conditions.json",
+    "source": "upstream/outputs/pinndata/doe_cont/conditions.json",
+    "source_sha256": "e693fdede8a68612fc88b8921a004e15d6aa5a40ec328088644fc12da9041ecb"
+  },
+  {
+    "file": "outputs/pinndata/doe_ext/conditions.json",
+    "source": "upstream/outputs/pinndata/doe_ext/conditions.json",
+    "source_sha256": "1646645c9a85d13a3201e6a59eb259ae04a252b312b5af4d472d25e63a5269b2"
+  },
+  {
+    "file": "research/java/BinaryClosureExport.java",
+    "source": "workspace/BinaryClosureExport.java",
+    "source_sha256": "353936b53d4a810ccfcb4674c50ba1090e2d2851e3a17ec055370d1eee4e3638"
+  },
+  {
+    "file": "research/java/BinaryCommonGrid.java",
+    "source": "workspace/BinaryCommonGrid.java",
+    "source_sha256": "6254848db9316b700d406f7f8bc8fdbcb2420a9f6b0581e067df04dc53a37d08"
+  },
+  {
+    "file": "research/java/BinaryFluxRecover.java",
+    "source": "workspace/BinaryFluxRecover.java",
+    "source_sha256": "c981fe0bd6b796cc3c2336d41827b8cf5ac72070bcfe8ef9a44f64637ea90a69"
+  },
+  {
+    "file": "research/java/BinaryGridSolve.java",
+    "source": "workspace/BinaryGridSolve.java",
+    "source_sha256": "d3953de8085dc162a23eb8aaee9736f5ff24a7e83742031eb24e35ffa6d20d7b"
+  },
+  {
+    "file": "research/java/BinaryPhysicalExport.java",
+    "source": "workspace/BinaryPhysicalExport.java",
+    "source_sha256": "2711a029c4a250680ddc6f269c43777cd7db2dff13813659f1149ceea2905e88"
+  },
+  {
+    "file": "research/java/BinaryPhysicalMap.java",
+    "source": "workspace/BinaryPhysicalMap.java",
+    "source_sha256": "42321e63a4062428e6024e4bea22af6c527081886bbaad7fc94717688351f195"
+  },
+  {
+    "file": "research/java/BinaryReviewModel.java",
+    "source": "workspace/BinaryReviewModel.java",
+    "source_sha256": "698071d745b46c68fec9acc032868d4ce231c7a25e60684561a81e0553345a93"
+  },
+  {
+    "file": "research/java/BinaryReviewModelV2.java",
+    "source": "workspace/BinaryReviewModelV2.java",
+    "source_sha256": "0bd640248c87f3df3d28a767f5f2c688aefe130ba30064d41fee4c072bb0f826"
+  },
+  {
+    "file": "research/java/BinaryStreamSolve.java",
+    "source": "workspace/BinaryStreamSolve.java",
+    "source_sha256": "a2d9209b69889308df0eb4e430f26c77f90354e19322237eab11eb3ae03a102b"
+  },
+  {
+    "file": "research/java/BinaryStreamSolveV2.java",
+    "source": "workspace/BinaryStreamSolveV2.java",
+    "source_sha256": "84bff83072cde8fbb8e76e71c6ffdc2bddc5426fedfbd05a09e142c97a8a2496"
+  },
+  {
+    "file": "research/java/BinaryStreamSolveV3.java",
+    "source": "workspace/BinaryStreamSolveV3.java",
+    "source_sha256": "76aa48ccac60977e97784955d7fc40da602f49a803f07608dc09b270ebae2224"
+  },
+  {
+    "file": "research/java/BinaryStreamSolveV4.java",
+    "source": "workspace/BinaryStreamSolveV4.java",
+    "source_sha256": "57f43637cfc88d995db9f90c477707710aef951ade4ac5525519dad03b199a60"
+  },
+  {
+    "file": "research/java/ClosureDetails.java",
+    "source": "workspace/ClosureDetails.java",
+    "source_sha256": "79762f8bd2bd1b5ecfc11a200a0ef10d20882836befacf0c3f7b3f6c8c9fb667"
+  },
+  {
+    "file": "research/java/ClosureExport.java",
+    "source": "workspace/ClosureExport.java",
+    "source_sha256": "5f67ffb696e1b11512fd78efa84a14151cf02658fb2c20941c685e6510e38d96"
+  },
+  {
+    "file": "research/java/ClosureRefine.java",
+    "source": "workspace/ClosureRefine.java",
+    "source_sha256": "c28c1e1dcd87294232ee5870932c56a86db35afd58e472c0702a9db1bb2859c5"
+  },
+  {
+    "file": "research/java/ClosureRefineWarm.java",
+    "source": "workspace/ClosureRefineWarm.java",
+    "source_sha256": "e102880d1213d95b2dbd2bd1dc4ae0910a47a71c1dcc32ca66b3337c3707808f"
+  },
+  {
+    "file": "research/java/ClosureSolutions.java",
+    "source": "workspace/ClosureSolutions.java",
+    "source_sha256": "ea7f908f61a52f3c2eae4f47b7d4a4cffb214bd5ac9289b04333b85f0ed1a6eb"
+  },
+  {
+    "file": "research/java/ClosureTimeTolerance.java",
+    "source": "workspace/ClosureTimeTolerance.java",
+    "source_sha256": "5042ac23e4b6e71247c96b21aba9a1974174a70cb867be99e1230090582af0f0"
+  },
+  {
+    "file": "research/java/FluxAuditExport.java",
+    "source": "workspace/FluxAuditExport.java",
+    "source_sha256": "5a70aa40154c4b13624db6fad0bfa3e5908ee2b7b0426056845f927fd13f82fe"
+  },
+  {
+    "file": "research/java/FluxInterfacePointwise.java",
+    "source": "workspace/FluxInterfacePointwise.java",
+    "source_sha256": "c3a2cf0b5f0fd043059b87fea79713b2fdb47b584b70b0f742dba672d02b49a9"
+  },
+  {
+    "file": "research/java/FluxMeshRefine.java",
+    "source": "workspace/FluxMeshRefine.java",
+    "source_sha256": "4a8c99718bebcd405eab44effebd254933635c06670f7bf51c3fc35e4e225235"
+  },
+  {
+    "file": "research/java/FourSpeciesCommonGrid.java",
+    "source": "workspace/FourSpeciesCommonGrid.java",
+    "source_sha256": "7a882fdc6c73f8a697343db0b96b37aaeacc2a3e10deccc751e7b87cedd3fe07"
+  },
+  {
+    "file": "research/java/FourSpeciesCommonGridV2.java",
+    "source": "workspace/FourSpeciesCommonGridV2.java",
+    "source_sha256": "d2ebfe720a5445c57043b703fa1e562b100b0096a6b4462f748c160a2701a24d"
+  },
+  {
+    "file": "research/java/LFAnnotate.java",
+    "source": "workspace/LFAnnotate.java",
+    "source_sha256": "a321621b2d99856cb3e0fa927c32363d76ac10adf5e7520c7a6553409bcfc401"
+  },
+  {
+    "file": "research/java/LFAnnotateV2.java",
+    "source": "workspace/LFAnnotateV2.java",
+    "source_sha256": "f31cf71b7619368d6a11e59565f6c9a595613199b16ddf01f641c2f46d659ac9"
+  },
+  {
+    "file": "research/java/LFAnnotateV3.java",
+    "source": "workspace/LFAnnotateV3.java",
+    "source_sha256": "04606b7471bfefca289a41e90d89726262728a5577bdb0de878bcb1a555bb206"
+  },
+  {
+    "file": "research/java/LFConservativeBundle.java",
+    "source": "workspace/LFConservativeBundle.java",
+    "source_sha256": "966f5482f0d65d13c57c9312cfdc399d86d29a2fb8825248bbf92218970d9a3e"
+  },
+  {
+    "file": "research/java/LFConservativeBundleV2.java",
+    "source": "workspace/LFConservativeBundleV2.java",
+    "source_sha256": "72d2528bd6f2e2c8fec3794aa3c6b19d8787233021de8d31183a987b2e1b68e0"
+  },
+  {
+    "file": "research/java/LFConservativeBundleV3.java",
+    "source": "workspace/LFConservativeBundleV3.java",
+    "source_sha256": "0341a90febb4870d37863b5bc688ca92a383ee9e6f9474173d0eb6de275c9094"
+  },
+  {
+    "file": "research/java/LFConservativeBundleV4.java",
+    "source": "workspace/LFConservativeBundleV4.java",
+    "source_sha256": "82984e66d4b96fe7c0402b674dede37377e8545e64b4022e4935565b9623bb65"
+  },
+  {
+    "file": "research/java/LFFrozenRecovery.java",
+    "source": "workspace/LFFrozenRecovery.java",
+    "source_sha256": "acd0a20506d4ddb757adbc92ed6bf34895ef43a0f2474468dfb039bd0e65d570"
+  },
+  {
+    "file": "research/java/LFFrozenRecoveryV2.java",
+    "source": "workspace/LFFrozenRecoveryV2.java",
+    "source_sha256": "fefeb1165bf2c5f5c459d4647ade2311c4572e55e58237f9e1ef55901ba72a16"
+  },
+  {
+    "file": "research/java/LFInterfaceExport.java",
+    "source": "workspace/LFInterfaceExport.java",
+    "source_sha256": "98f3942a56ce385c999c388af488dfb22780270c48b1e8232ac4b1a269aca49a"
+  },
+  {
+    "file": "research/java/LFOriginalHash.java",
+    "source": "workspace/LFOriginalHash.java",
+    "source_sha256": "cb740f6681154e85f26f5482ac70665e784abe6bf0b3f7200b3b5b456ab0696c"
+  },
+  {
+    "file": "research/java/LFPrecisionRefine.java",
+    "source": "workspace/LFPrecisionRefine.java",
+    "source_sha256": "f052b39e771b662d7013f406230d8427c66e81bc00edca7970b987e06f72c1c0"
+  },
+  {
+    "file": "research/java/LFPrimaryConservative.java",
+    "source": "workspace/LFPrimaryConservative.java",
+    "source_sha256": "3f832500c5fa56f0544f78d31ddc19a56cd1e2ed1d830dfcf874d5bd4cfed3be"
+  },
+  {
+    "file": "research/java/LFPrimaryConservativeTight.java",
+    "source": "workspace/LFPrimaryConservativeTight.java",
+    "source_sha256": "9e80a02a9128a9f99c8298381855a29763e59a92d3df199a0baeb97524a7dd49"
+  },
+  {
+    "file": "research/java/LFPrimaryEvidence.java",
+    "source": "workspace/LFPrimaryEvidence.java",
+    "source_sha256": "7779e4ba9050a3323f5916517653f1f004404e8f72f700dd9f9ea4d3201cbe24"
+  },
+  {
+    "file": "research/java/LFRecoveryPrototype.java",
+    "source": "workspace/LFRecoveryPrototype.java",
+    "source_sha256": "8a5057d107eee1d740c542d356010c7aef59775500641b1bb4afcf3be279a17f"
+  },
+  {
+    "file": "research/java/LocalConfiguredSolve20261017.java",
+    "source": "workspace/LocalConfiguredSolve20261017.java",
+    "source_sha256": "232f8f61c16aecd76256dfa81c63bb5f6801c264e7bc2c448207cfe07c54e4c8"
+  },
+  {
+    "file": "research/java/LocalMeshBaseline20261017.java",
+    "source": "workspace/LocalMeshBaseline20261017.java",
+    "source_sha256": "0b8a23398a6c38f87f43c4563676eac526a0b9ab7c2b2ed61154a2050061513a"
+  },
+  {
+    "file": "research/java/LocalMeshQuality20261017.java",
+    "source": "workspace/LocalMeshQuality20261017.java",
+    "source_sha256": "912277fb90f61d39535ecf582df00cf649f132db277ede9b610a1e221bda36fe"
+  },
+  {
+    "file": "research/java/LocalMeshSolve20261017.java",
+    "source": "workspace/LocalMeshSolve20261017.java",
+    "source_sha256": "5825f4c72326b454e070d5356aefed6bac0ee3649d98115793beb8de6bd26882"
+  },
+  {
+    "file": "research/java/LocalMeshSolveV2_20261017.java",
+    "source": "workspace/LocalMeshSolveV2_20261017.java",
+    "source_sha256": "c7aadab941e2e541de6a23c2d2cd69249f228cd63746846908e0769153fade4b"
+  },
+  {
+    "file": "research/java/LocalReviewModel20261017.java",
+    "source": "workspace/LocalReviewModel20261017.java",
+    "source_sha256": "7bf81da32f88ba539f51582f6d2a86a5295e73db93661b334dd77673ec988a96"
+  },
+  {
+    "file": "research/java/MCSpeciesCompatibleFlow.java",
+    "source": "workspace/MCSpeciesCompatibleFlow.java",
+    "source_sha256": "e137ae1a2cd36a5fb1068ed96dc34b8478e8cca1ab6a5bdbcba5e4da12987e28"
+  },
+  {
+    "file": "research/java/MCSpeciesCorrection.java",
+    "source": "workspace/MCSpeciesCorrection.java",
+    "source_sha256": "53cc8c1dde6d4f9e9a966be18fca375b5b5f31e5b4aebbf93cce6113b197e5e4"
+  },
+  {
+    "file": "research/java/MCSpeciesExport.java",
+    "source": "workspace/MCSpeciesExport.java",
+    "source_sha256": "f0ca8cc4824581bb0ffd7bd944af2666e4b90471aaca58650e4f2ea0a4838cd0"
+  },
+  {
+    "file": "research/java/MCSpeciesPair.java",
+    "source": "workspace/MCSpeciesPair.java",
+    "source_sha256": "3c9a2411c7c1365f8529c15f15d71f49305b8cdf777162c1d54efd72a00c8b39"
+  },
+  {
+    "file": "research/java/MCSpeciesPairV2.java",
+    "source": "workspace/MCSpeciesPairV2.java",
+    "source_sha256": "464abc4a1adf706aa9fc9f59fc84fbed6a54d287d7ab062ef0a0ca2da7cb3980"
+  },
+  {
+    "file": "research/java/MCSpeciesPrototype.java",
+    "source": "workspace/MCSpeciesPrototype.java",
+    "source_sha256": "dba1b1d067e008b40ff991925ef7e9e18b50fc18f8a568f77f41eb27a7f5e19b"
+  },
+  {
+    "file": "research/java/MCSpeciesQuick.java",
+    "source": "workspace/MCSpeciesQuick.java",
+    "source_sha256": "2aec8c0a58940807b20b0df252578cfade2742f4a836064249d8007c1cf669f2"
+  },
+  {
+    "file": "research/java/MCSpeciesStandardExport.java",
+    "source": "workspace/MCSpeciesStandardExport.java",
+    "source_sha256": "5800f86d64096105bd9f53654e3e5b061013ff8ac9216b05efb33666506537b3"
+  },
+  {
+    "file": "research/java/ReactiveBuild.java",
+    "source": "workspace/ReactiveBuild.java",
+    "source_sha256": "5a66585f91351addc052e13136acd727b10f040b78fb7e0037adbcaf486bd5ba"
+  },
+  {
+    "file": "research/java/ReactiveConstants.java",
+    "source": "workspace/ReactiveConstants.java",
+    "source_sha256": "806bee4937937ec14aee7a34bc6055493e903c864e1d117422e9d7c4b9246d11"
+  },
+  {
+    "file": "research/java/ReactiveDeliverModel.java",
+    "source": "workspace/ReactiveDeliverModel.java",
+    "source_sha256": "a913d84c73cbc2a62a8b81eae276c931c390c3249b0b77b14b42eb126ff11af7"
+  },
+  {
+    "file": "research/java/ReactiveEquationView.java",
+    "source": "workspace/ReactiveEquationView.java",
+    "source_sha256": "6ffdeecc1fcad59f3ac0abcb66f8f76967ca17f79dc808aff0f49ff2c07f52e6"
+  },
+  {
+    "file": "research/java/ReactiveExport.java",
+    "source": "workspace/ReactiveExport.java",
+    "source_sha256": "574499a2d9cf1447032ef2cccfbe08ee4cec3e10842202f4cd4ea531bad319da"
+  },
+  {
+    "file": "research/java/ReactivePrototype.java",
+    "source": "workspace/ReactivePrototype.java",
+    "source_sha256": "e98a742ca88a8df8358da7d6d575616c2f04ba99ff50524337fee8ea5b087c62"
+  },
+  {
+    "file": "research/java/ReactiveSolve.java",
+    "source": "workspace/ReactiveSolve.java",
+    "source_sha256": "6a5ca4ab564223e41d25b8657386600502b962d3e6e2a048b70581c19a280ae1"
+  },
+  {
+    "file": "research/java/ReactiveSolveContinuation.java",
+    "source": "workspace/ReactiveSolveContinuation.java",
+    "source_sha256": "42441b391f852b8ada6bf5c8d6a6dd7155001b9f55a8f3dbad3de8f6a9965fac"
+  },
+  {
+    "file": "research/java/ReactiveSolveExplicitMass.java",
+    "source": "workspace/ReactiveSolveExplicitMass.java",
+    "source_sha256": "e5391fa5ca529f94cf191dadfa2db2a02e6fd8e70b0be50d962c43cb3d911bcb"
+  },
+  {
+    "file": "research/java/ReactiveSolveFine.java",
+    "source": "workspace/ReactiveSolveFine.java",
+    "source_sha256": "e8c998e788df04389d6b2ac8007e2b81f9c0d28798a37dad029c3230c330ea12"
+  },
+  {
+    "file": "research/java/ReactiveSolveLowMach.java",
+    "source": "workspace/ReactiveSolveLowMach.java",
+    "source_sha256": "7c4de7b86ca6b5e4c6dc3a5a2de970c9f09548eeb924251d29cd5037dfe8cb49"
+  },
+  {
+    "file": "research/java/ReactiveSolvePressureFixed.java",
+    "source": "workspace/ReactiveSolvePressureFixed.java",
+    "source_sha256": "aa065318c39ceb17290beced431e9cb8a600fb5745d28eec532a21e625095514"
+  },
+  {
+    "file": "research/java/ReactiveSolveSegregated.java",
+    "source": "workspace/ReactiveSolveSegregated.java",
+    "source_sha256": "bb3f26499b670458c92ae9bf7b528d385b258c71aa4966751c8c350bd5ea147e"
+  },
+  {
+    "file": "research/java/ReactiveSolveSegregatedV2.java",
+    "source": "workspace/ReactiveSolveSegregatedV2.java",
+    "source_sha256": "bb7bf3941b51d5debb9e59606e1bb33264a8822be1e5b79bef1c2465831a0b95"
+  },
+  {
+    "file": "research/java/ReactiveSolveSegregatedV3.java",
+    "source": "workspace/ReactiveSolveSegregatedV3.java",
+    "source_sha256": "0b325b1081401c500031fc2f01cd533f6efd03626678d811657e634fc7d88ec5"
+  },
+  {
+    "file": "research/java/ReactiveSolveSegregatedV4.java",
+    "source": "workspace/ReactiveSolveSegregatedV4.java",
+    "source_sha256": "12fbb7e851e43580cf64b041c6fa2f45226ce0e86ab341af57a54163e276a2fe"
+  },
+  {
+    "file": "research/java/ReferenceAudit20261017.java",
+    "source": "workspace/ReferenceAudit20261017.java",
+    "source_sha256": "87e065e876f7f42c33b60848278850ecae3975131e052d777345f26a23cbc2ae"
+  },
+  {
+    "file": "research/java/ReferenceFieldExport20261017.java",
+    "source": "workspace/ReferenceFieldExport20261017.java",
+    "source_sha256": "ed1e85d2e48b721b2d44a5bf65a33b6254d2bea45154ceed483329db6f09a3f5"
+  },
+  {
+    "file": "research/java/ReferenceFunctionAudit20261017.java",
+    "source": "workspace/ReferenceFunctionAudit20261017.java",
+    "source_sha256": "3c3164b78d6a0c3ccbe972345a31b862077a571bbe7e1938ab6910b6bee72f28"
+  },
+  {
+    "file": "research/java/ReferenceInitialSolve20261017.java",
+    "source": "workspace/ReferenceInitialSolve20261017.java",
+    "source_sha256": "df17e2b4d1d520007bf8dec985d7b2246ed391b33485b6466d72998a7999c779"
+  },
+  {
+    "file": "research/java/ReferencePilotMetrics20261017.java",
+    "source": "workspace/ReferencePilotMetrics20261017.java",
+    "source_sha256": "955633633fb7d91dbce55ae57c3cc3f2ccf7c25b55bdbe1975de2ac7671bb94f"
+  },
+  {
+    "file": "research/java/ReferenceSteadySolve20261017.java",
+    "source": "workspace/ReferenceSteadySolve20261017.java",
+    "source_sha256": "6328d9b1f54ce14870fd740b842d88f1f02eb48ed8c31a3fb838b082b00568d2"
+  },
+  {
+    "file": "research/java/ReferenceTimeStepAudit20261019.java",
+    "source": "workspace/ReferenceTimeStepAudit20261019.java",
+    "source_sha256": "1e547b6c1feb806ac9657e24ca32109f8336e3f3fee92089dae46a4a456e6461"
+  },
+  {
+    "file": "research/java/ReferenceTrajectoryPrepare20261018.java",
+    "source": "workspace/ReferenceTrajectoryPrepare20261018.java",
+    "source_sha256": "3ff04f208a6347b406471de6721860935fb02cf7c4bc875959acb2b79edb0820"
+  },
+  {
+    "file": "research/java/ReferenceTransientFluxRecover20261017.java",
+    "source": "workspace/ReferenceTransientFluxRecover20261017.java",
+    "source_sha256": "b6597bd2b0ccb1de2ff5ae7b50fd78c71ade3e7e0303465ee071248f97c68ac6"
+  },
+  {
+    "file": "research/java/ReferenceTransientFluxRecover20261018.java",
+    "source": "workspace/ReferenceTransientFluxRecover20261018.java",
+    "source_sha256": "6de883e3c46b0084dc221c575613ccd578ebda7357e5da7d1b6caa76d6c3beb2"
+  },
+  {
+    "file": "research/java/ReferenceTransientFluxRecoverIndex20261019.java",
+    "source": "workspace/ReferenceTransientFluxRecoverIndex20261019.java",
+    "source_sha256": "a35c1cf761251d33d361171013bff0a47158edc9e0e7d80e4338265942f0b8bd"
+  },
+  {
+    "file": "research/java/ReferenceTransientIntegralExport20261017.java",
+    "source": "workspace/ReferenceTransientIntegralExport20261017.java",
+    "source_sha256": "1f303f486f400c3c3a3e8292d936f1e261778047c2570f7f5ac233ed4adb797f"
+  },
+  {
+    "file": "research/java/ReferenceTransientMetrics20261018.java",
+    "source": "workspace/ReferenceTransientMetrics20261018.java",
+    "source_sha256": "9c91712bb66eb5ea3e1764cde2c423c99ef0b2e1aa90a165e887ecc0204c461a"
+  },
+  {
+    "file": "research/java/ReferenceTransientPilot20261017.java",
+    "source": "workspace/ReferenceTransientPilot20261017.java",
+    "source_sha256": "d977f6224daf1b554b1c8c756dd786741cf23894112de50ca77ffcb5003a7bf9"
+  },
+  {
+    "file": "research/java/ReferenceTransientSolve20261017.java",
+    "source": "workspace/ReferenceTransientSolve20261017.java",
+    "source_sha256": "fb40bbadbe82b345ae6331717fa423b8ee97a0cee7981ae74ae084deca485c7e"
+  },
+  {
+    "file": "research/java/TSCarrierBasis.java",
+    "source": "workspace/TSCarrierBasis.java",
+    "source_sha256": "64461e71cddbd8381a15d2508dc4eba0dde45c1c2a9a720b2409e0bdd6ebf07f"
+  },
+  {
+    "file": "research/java/TSCarrierBasisV2.java",
+    "source": "workspace/TSCarrierBasisV2.java",
+    "source_sha256": "e27fdce5abf61d4dd94c8eb1201ce4bcc7354952c770dd191dea98755c997448"
+  },
+  {
+    "file": "research/java/TSScaleSolve.java",
+    "source": "workspace/TSScaleSolve.java",
+    "source_sha256": "a13fd8b4fc91354fa0fbe3a1a36f0763814cc73b27fb6eab54953c7840bcb065"
+  },
+  {
+    "file": "research/java/VerifyCorrectedBoundaries.java",
+    "source": "workspace/VerifyCorrectedBoundaries.java",
+    "source_sha256": "68fdd81e196aca6a7c024d0a61acd27567530983b6b894ba0a40e8bdcf5ae8df"
+  },
+  {
+    "file": "work/DoeAll.java",
+    "source": "upstream/work/DoeAll.java",
+    "source_sha256": "39336c5fc5f716b192b79abaff605c7b0bb4819ada51866ea2731438873f2e09"
+  },
+  {
+    "file": "work/DoeCommon.java",
+    "source": "upstream/work/DoeCommon.java",
+    "source_sha256": "56539c1d30954214dff71353fe2a6c62a634faf39b581830ef4c952e4bca22c6"
+  },
+  {
+    "file": "work/DoeAllB4.java",
+    "source": "upstream/work/DoeAllB4.java",
+    "source_sha256": "f38e96539243c086f52367ca91026d1f8ebb03c40756610cd51a3b1b04db896d"
+  },
+  {
+    "file": "work/DoeContB4.java",
+    "source": "upstream/work/DoeContB4.java",
+    "source_sha256": "8be3007f46ac06b41f4c7b09fb02e13b01d062d4a02e8c369d0c1de3ef055db4"
+  },
+  {
+    "file": "work/DoeSteady.java",
+    "source": "upstream/work/DoeSteady.java",
+    "source_sha256": "ddcafa08d059d7a3e9d4298ef921cfb6cd1212ce475d3ed00b7cdaf01af3acf0"
+  },
+  {
+    "file": "work/DoeTransient.java",
+    "source": "upstream/work/DoeTransient.java",
+    "source_sha256": "79e8d50175271a5010a384f1ccfb9554636299eb86a441c7ca2c664a91ea1162"
+  },
+  {
+    "file": "work/ExportPinnData.java",
+    "source": "upstream/work/ExportPinnData.java",
+    "source_sha256": "308de1e210076ee3d34b867c43bad05115439db2182bca71c44caf32b56ab840"
+  },
+  {
+    "file": "outputs/verify3d/Build3D.java",
+    "source": "upstream/outputs/verify3d/Build3D.java",
+    "source_sha256": "778508c0ccc5b0fc17a0e3ccde32f6b320ce2a46fe4d35560fd88927f2486f99"
+  },
+  {
+    "file": "outputs/verify3d/Solve3D.java",
+    "source": "upstream/outputs/verify3d/Solve3D.java",
+    "source_sha256": "9aab504861a2feba38c0185ab3b239433ad5b5e2e0fd9571f2d46a2e1c6485ec"
+  },
+  {
+    "file": "outputs/verify3d/Solve3DV2.java",
+    "source": "upstream/outputs/verify3d/Solve3DV2.java",
+    "source_sha256": "fe42b683fe8bf18a2c2a43393d98db8b10225013ef998e5dde469377a2575f4c"
+  },
+  {
+    "file": "outputs/verify3d/Transient3D4.java",
+    "source": "upstream/outputs/verify3d/Transient3D4.java",
+    "source_sha256": "e4de61a8a79b256e69115ee1239f9921b56ed7231ca3ea2285d81d1277b7808b"
+  },
+  {
+    "file": "outputs/verify3d/DiagExport3D.java",
+    "source": "upstream/outputs/verify3d/DiagExport3D.java",
+    "source_sha256": "9d07f4886daea70b03daedfb54a7b46d8da46affe7839a8f3ca54ed5070af900"
+  },
+  {
+    "file": "outputs/verify3d/EmsRecheck2D.java",
+    "source": "upstream/outputs/verify3d/EmsRecheck2D.java",
+    "source_sha256": "b3cdc82f01a461f014f73ee7411896675d780bd90985467c984e4914abde63f0"
+  },
+  {
+    "file": "outputs/verify3d/EmsRecheck3D.java",
+    "source": "upstream/outputs/verify3d/EmsRecheck3D.java",
+    "source_sha256": "28586d78393c840bf7d7ee5cc342633e7e2b99ccc9f1cce67953c1a4c8c66ec2"
+  },
+  {
+    "file": "research/test_corrected_physics_20261015.py",
+    "source": "workspace/test_corrected_physics_20261015.py",
+    "source_sha256": "866705942018807b4e89ff18b96760b763e7bf3d68f027e2b4d3c505841a0983"
+  },
+  {
+    "file": "research/test_electrochem_20261015.py",
+    "source": "workspace/test_electrochem_20261015.py",
+    "source_sha256": "ab97a97b210e86c080b14fcc34d6c5ca3735ffe4083f9ab14ce62f949eb1c274"
+  },
+  {
+    "file": "research/test_electrochem_thermal_regression_20261015.py",
+    "source": "workspace/test_electrochem_thermal_regression_20261015.py",
+    "source_sha256": "a33ed8da2985f09bed53788abab26bd8cc84eac1b0361f30c1809c3f894b41ed"
+  },
+  {
+    "file": "research/test_semantic_interface_20261015.py",
+    "source": "workspace/test_semantic_interface_20261015.py",
+    "source_sha256": "1dba4304ca71a4545dc23fa95b07fc80ab4aa5acdfdc478e8fe2e6bd2b70bd4b"
+  },
+  {
+    "file": "research/test_ts_permutation_20261016.py",
+    "source": "workspace/test_ts_permutation_20261016.py",
+    "source_sha256": "fe2dc2d3b4fc112a0344c246b2798e43ffc52dd4248f7e80ffb03704b471a189"
+  },
+  {
+    "file": "outputs/microgrid_sys/data/pinn_lut_v20_axial_101.npz",
+    "source": "upstream/outputs/microgrid_sys/results/temperature_extraction_20261015/candidates/pinn_lut_v20_axial_101.npz",
+    "source_sha256": "4ce823f7a10e2cfe96fafe17a89dd36b498b6a251f9f04d2dc38694c7393e362"
+  },
+  {
+    "file": "outputs/microgrid_sys/data/pinn_lut_v20_full_training_mesh.npz",
+    "source": "upstream/outputs/microgrid_sys/results/temperature_extraction_20261015/candidates/pinn_lut_v20_full_training_mesh.npz",
+    "source_sha256": "8dae9edb8b20fcdcc4809967840dd8dcad273cf9859d3d0a964e6aa12e41f9c3"
+  },
+  {
+    "file": "reference_results/ems_three_sampling/coverage_and_control_audit.csv",
+    "source": "workspace/ems_three_sampling_20261023/coverage_and_control_audit.csv",
+    "source_sha256": "752233dbcc6f4ad4142a3bafee3378ba056f99c855ce0ebf5bb8bfe6d543eae4"
+  },
+  {
+    "file": "reference_results/ems_three_sampling/full_mesh_deltas.csv",
+    "source": "workspace/ems_three_sampling_20261023/full_mesh_deltas.csv",
+    "source_sha256": "6470a3aa8885b2c3e0485006a302174cf5dcbffbb778e4065e43caf530711479"
+  },
+  {
+    "file": "reference_results/ems_three_sampling/issue_steps.csv",
+    "source": "workspace/ems_three_sampling_20261023/issue_steps.csv",
+    "source_sha256": "6fe4f8e872f3bf58b5d79560760fd444b9c0dbd43f5de3a1a81d4f38ff06de7c"
+  },
+  {
+    "file": "reference_results/ems_three_sampling/summary.csv",
+    "source": "workspace/ems_three_sampling_20261023/summary.csv",
+    "source_sha256": "58d5c0321c566d1fdcf61c99643d97b9dbde869f126a2b3d8db78133b6822eb2"
+  },
+  {
+    "file": "reference_results/ems_three_sampling/temperature_cross_evaluation.csv",
+    "source": "workspace/ems_three_sampling_20261023/temperature_cross_evaluation.csv",
+    "source_sha256": "9ee4379c0b39b30cc1b31c509cb91253ca3914030d1f9b2036bae3febd3c444f"
+  },
+  {
+    "file": "reference_results/capacity/boundary_sweep.json",
+    "source": "upstream/outputs/microgrid_sys/results/capacity/boundary_sweep.json",
+    "source_sha256": "96ac82fc26b081b4947eed6bc1cc43799971974025ffb5c9ab5f06d342f63fa0"
+  },
+  {
+    "file": "reference_results/capacity/capacity_opt.json",
+    "source": "upstream/outputs/microgrid_sys/results/capacity/capacity_opt.json",
+    "source_sha256": "07e03bf8c9af257b982b3fbaa3c47563c6b6bddeef36e75914f655a261414fe4"
+  },
+  {
+    "file": "reference_results/capacity/capacity_scan.csv",
+    "source": "upstream/outputs/microgrid_sys/results/capacity/capacity_scan.csv",
+    "source_sha256": "aff49fc59965f13fecf0dee5f396411edb798fbe6d7d1f2620b1e02ef69903ab"
+  },
+  {
+    "file": "reference_results/capacity/e2_paper_benchmarks.csv",
+    "source": "upstream/outputs/microgrid_sys/results/capacity/e2_paper_benchmarks.csv",
+    "source_sha256": "dc09508ffe9917d42307778686c8908e368ebadccd9f1abf5cd5b627400ddf19"
+  },
+  {
+    "file": "reference_results/capacity/e2_paper_benchmarks.json",
+    "source": "upstream/outputs/microgrid_sys/results/capacity/e2_paper_benchmarks.json",
+    "source_sha256": "3deb79c0cac37135d7f7f73e41c5081ea2f3bfd575debd37b2a83e33019b1919"
+  },
+  {
+    "file": "reference_results/capacity/e3_sensitivity.csv",
+    "source": "upstream/outputs/microgrid_sys/results/capacity/e3_sensitivity.csv",
+    "source_sha256": "a5caa32c30a7a73f2863c0c8e235c141feef2fa7383f31390f8135a16a7be2c8"
+  },
+  {
+    "file": "reference_results/capacity/e3_sensitivity.json",
+    "source": "upstream/outputs/microgrid_sys/results/capacity/e3_sensitivity.json",
+    "source_sha256": "540510c9f772ec9254cde93d15cb9345ae33abf3d785e7c98bd858b5aa036795"
+  },
+  {
+    "file": "reference_results/capacity/recommended_pinn_check.json",
+    "source": "upstream/outputs/microgrid_sys/results/capacity/recommended_pinn_check.json",
+    "source_sha256": "dfdefc28ff834f2a67df41d6fc8aee481fc60285a5cb56a44b40e84ab9f8215e"
+  },
+  {
+    "file": "outputs/microgrid_sys/results/electrochem_corrected_20261015/tests/COMSOL_training_kinetics_formula_check.csv",
+    "source": "upstream/outputs/microgrid_sys/results/electrochem_corrected_20261015/tests/COMSOL_training_kinetics_formula_check.csv",
+    "source_sha256": "6661fe45f9e284499bb4ce11e30e0e76aa9c3c06e8253232d02e22093b2f4bf4"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/electrochem_corrected_20261015/initial_reference/temperature_from_training_steady.parquet",
+    "source": "upstream/outputs/pinn_sofc/experiments/electrochem_corrected_20261015/initial_reference/temperature_from_training_steady.parquet",
+    "source_sha256": "9ea2a1822e783dc59a1b48aff19ff39ddc27374e2ad748e58b005ac1c2d0ccaa"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/paired_corrected_20261015_stage12/initial_reference/temperature_from_training_steady.parquet",
+    "source": "upstream/outputs/pinn_sofc/experiments/paired_corrected_20261015_stage12/initial_reference/temperature_from_training_steady.parquet",
+    "source_sha256": "9ea2a1822e783dc59a1b48aff19ff39ddc27374e2ad748e58b005ac1c2d0ccaa"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/physics_corrected_20261015/initial_reference/temperature_from_training_steady.parquet",
+    "source": "upstream/outputs/pinn_sofc/experiments/physics_corrected_20261015/initial_reference/temperature_from_training_steady.parquet",
+    "source_sha256": "9ea2a1822e783dc59a1b48aff19ff39ddc27374e2ad748e58b005ac1c2d0ccaa"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/electrochem_corrected_20261015/initial_reference/audit.json",
+    "source": "upstream/outputs/pinn_sofc/experiments/electrochem_corrected_20261015/initial_reference/audit.json",
+    "source_sha256": "70f04ebb54e5696ca545fa2e1ee0b2ae3206c84f380d4e0fbb7f0a1aac46ebe0"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/paired_corrected_20261015_stage12/initial_reference/audit.json",
+    "source": "upstream/outputs/pinn_sofc/experiments/paired_corrected_20261015_stage12/initial_reference/audit.json",
+    "source_sha256": "70f04ebb54e5696ca545fa2e1ee0b2ae3206c84f380d4e0fbb7f0a1aac46ebe0"
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/physics_corrected_20261015/initial_reference/audit.json",
+    "source": "upstream/outputs/pinn_sofc/experiments/physics_corrected_20261015/initial_reference/audit.json",
+    "source_sha256": "70f04ebb54e5696ca545fa2e1ee0b2ae3206c84f380d4e0fbb7f0a1aac46ebe0"
+  }
+]

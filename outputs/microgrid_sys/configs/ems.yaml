@@ -1,0 +1,12 @@
+ems:
+  soc_target: 0.55
+  k_soc_kw: 400.0
+  p_add_max_kw: 100.0
+  soc_deadband: 0.02
+  soc_h1: 0.4
+  soc_h2: 0.6
+  p_add_charge_min_kw: 5.0
+  lpf_tau_min: 20.0
+  sofc_on_thr_pu: 0.1
+  sofc_off_thr_pu: 0.05
+  genset_min_load_pu: 0.1

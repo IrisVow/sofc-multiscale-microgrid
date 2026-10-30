@@ -1,0 +1,10 @@
+factor,dlcoe_lo_pct,dlcoe_hi_pct,note
+LNG 价格,-15.74,15.74,economic
+SOFC CAPEX,-5.87,5.87,economic
+电池 CAPEX,-0.61,0.61,economic
+折现率,-3.41,3.63,economic
+年电量（负荷）,2.63,-2.15,economic
+降解速率,-0.005,0.005,physical
+T_in,0.000,0.000,physical
+lambda_air,0.000,0.000,physical
+FU,0.000,0.000,physical

@@ -1,0 +1,7 @@
+annual_energy_mwh: 846.3
+autonomy_days: 7
+deck_height_m: 3.0
+eta_sofc_nominal: 0.54
+eta_genset_nominal: 0.42
+safety_margin_fuel: 0.1
+boiler_kw: 120

@@ -1,0 +1,30 @@
+pinn:
+  onnx_path: ../pinn_sofc/runs/stage3_pde_v20/pinn_sofc_v20.onnx
+  cont_version: 10
+  use_pinn_table: false
+  live_infer: false
+  lut_path: data/pinn_lut_v20.npz
+  lut_method: linear
+  t_s: 0.0
+  probe_x_m: 0.05
+  probes:
+  - domain: air_channel
+    y_m: 0.0004
+  - domain: air_electrode
+    y_m: 0.00105
+  - domain: electrolyte
+    y_m: 0.00131
+  - domain: fuel_electrode
+    y_m: 0.00157
+  - domain: fuel_channel
+    y_m: 0.00222
+  t_in_nominal_k: 1123.0
+  lambda_air_nominal: 6.0
+  fu_nominal: 0.7
+  constraint_mode: derate
+  tmax_limit_k: 1173.0
+  max_dt_k: 50.0
+  derate_floor_pu: 0.5
+  derate_bisect_iters: 10
+  derate_deadband_k: 3.0
+  derate_margin_k: 2.0

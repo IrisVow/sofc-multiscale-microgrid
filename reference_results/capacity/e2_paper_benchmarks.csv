@@ -1,0 +1,16 @@
+metric,value,unit
+reductions.fuel_efficiency_gain_pct,54.37,%
+reductions.ghg_pct,49.07,%
+reductions.nox_pct,99.07,%
+reductions.pm_pct,99.76,%
+reductions.sox_pct,100.00,%
+economics.annual_op_saving_usd,125824.7444,usd
+economics.incremental_capex_usd,130000.0000,usd
+economics.lcoe_delta_pct,-48.9966,
+economics.npv_20y_usd,1105365.8881,usd
+economics.simple_payback_years,1.0332,
+recommended.sofc_share_pct,71.43,%
+recommended.total_volume_m3,28.28,m3
+recommended.total_weight_ton,17.24,ton
+recommended.lcoe_usd_mwh,138.48,usd/mwh
+recommended.ghg_kg_7d,7322.3,kg

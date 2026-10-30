@@ -1,0 +1,150 @@
+{
+  "model_source": "sofc1_fixed.mph (COMSOL 6.3)",
+  "notes": "E1-E3 (T_in=1123K x V 0.75/0.8/0.85) + F1-F12 (lambda_air/FU boundary pts) as B1 additions; cleaning identical to original DOE",
+  "cases": {
+    "S1": {
+      "V_cell": 1.0,
+      "T_in_K": 1073.0,
+      "lambda_air": 8.0,
+      "FU": 0.6
+    },
+    "S2": {
+      "V_cell": 0.95,
+      "T_in_K": 1073.0,
+      "lambda_air": 8.0,
+      "FU": 0.6
+    },
+    "S3": {
+      "V_cell": 0.9,
+      "T_in_K": 1073.0,
+      "lambda_air": 8.0,
+      "FU": 0.6
+    },
+    "S4": {
+      "V_cell": 0.85,
+      "T_in_K": 1073.0,
+      "lambda_air": 8.0,
+      "FU": 0.6
+    },
+    "S5": {
+      "V_cell": 0.8,
+      "T_in_K": 1073.0,
+      "lambda_air": 8.0,
+      "FU": 0.6
+    },
+    "S6": {
+      "V_cell": 0.75,
+      "T_in_K": 1073.0,
+      "lambda_air": 8.0,
+      "FU": 0.6
+    },
+    "S7": {
+      "V_cell": 0.9,
+      "T_in_K": 1073.0,
+      "lambda_air": 4.0,
+      "FU": 0.6
+    },
+    "S8": {
+      "V_cell": 0.9,
+      "T_in_K": 1073.0,
+      "lambda_air": 8.0,
+      "FU": 0.8
+    },
+    "S9": {
+      "V_cell": 0.9,
+      "T_in_K": 1123.0,
+      "lambda_air": 8.0,
+      "FU": 0.6
+    },
+    "E1": {
+      "V_cell": 0.75,
+      "T_in_K": 1123.0,
+      "lambda_air": 8.0,
+      "FU": 0.6
+    },
+    "E2": {
+      "V_cell": 0.8,
+      "T_in_K": 1123.0,
+      "lambda_air": 8.0,
+      "FU": 0.6
+    },
+    "E3": {
+      "V_cell": 0.85,
+      "T_in_K": 1123.0,
+      "lambda_air": 8.0,
+      "FU": 0.6
+    },
+    "F1": {
+      "V_cell": 0.9,
+      "T_in_K": 1123.0,
+      "lambda_air": 4.0,
+      "FU": 0.6
+    },
+    "F2": {
+      "V_cell": 0.9,
+      "T_in_K": 1123.0,
+      "lambda_air": 6.0,
+      "FU": 0.6
+    },
+    "F3": {
+      "V_cell": 0.85,
+      "T_in_K": 1123.0,
+      "lambda_air": 4.0,
+      "FU": 0.6
+    },
+    "F4": {
+      "V_cell": 0.75,
+      "T_in_K": 1123.0,
+      "lambda_air": 4.0,
+      "FU": 0.6
+    },
+    "F5": {
+      "V_cell": 0.85,
+      "T_in_K": 1123.0,
+      "lambda_air": 6.0,
+      "FU": 0.6
+    },
+    "F6": {
+      "V_cell": 0.75,
+      "T_in_K": 1123.0,
+      "lambda_air": 6.0,
+      "FU": 0.6
+    },
+    "F7": {
+      "V_cell": 0.9,
+      "T_in_K": 1123.0,
+      "lambda_air": 8.0,
+      "FU": 0.7
+    },
+    "F8": {
+      "V_cell": 0.9,
+      "T_in_K": 1123.0,
+      "lambda_air": 8.0,
+      "FU": 0.8
+    },
+    "F9": {
+      "V_cell": 0.85,
+      "T_in_K": 1123.0,
+      "lambda_air": 8.0,
+      "FU": 0.8
+    },
+    "F10": {
+      "V_cell": 0.75,
+      "T_in_K": 1123.0,
+      "lambda_air": 8.0,
+      "FU": 0.8
+    },
+    "F11": {
+      "V_cell": 0.9,
+      "T_in_K": 1073.0,
+      "lambda_air": 6.0,
+      "FU": 0.6
+    },
+    "F12": {
+      "V_cell": 0.9,
+      "T_in_K": 1073.0,
+      "lambda_air": 8.0,
+      "FU": 0.7
+    }
+  }
+}

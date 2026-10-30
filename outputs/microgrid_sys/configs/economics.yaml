@@ -1,0 +1,15 @@
+economics:
+  fuel_lng_usd_kwh: 0.043
+  fuel_mgo_usd_kwh: 0.075
+  om_sofc_usd_kwh: 0.02
+  om_genset_usd_kwh: 0.025
+  om_battery_usd_kwh: 0.01
+  capex_sofc_usd_kw: 1500.0
+  capex_genset_usd_kw: 500.0
+  capex_battery_usd_kwh: 350.0
+  project_years: 20
+  discount_rate: 0.08
+  annual_energy_mwh: 846.3
+  lolp_max_frac: 0.001
+  eens_max_frac: 0.001
+  imbalance_tol_kw: 1.0

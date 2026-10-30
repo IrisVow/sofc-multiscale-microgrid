@@ -1,0 +1,64 @@
+{
+  "status": "pass",
+  "tests": [
+    {
+      "test": "Arrhenius_values_derivative_and_NoCorr",
+      "status": "pass",
+      "sigma_S_m": [
+        2.263827018405905,
+        2.865305038926065,
+        4.250103511220538
+      ]
+    },
+    {
+      "test": "documented_limited_BV_equivalence_equilibrium_and_gradient",
+      "status": "pass"
+    },
+    {
+      "test": "finite_extreme_overpotential_zero_reactant_and_bounds",
+      "status": "pass",
+      "currents_A_m2": [
+        -2.0,
+        -0.0,
+        0.0,
+        5.0,
+        10.0
+      ]
+    },
+    {
+      "test": "reference_training_exports_reproduced_without_fit",
+      "status": "pass",
+      "max_relative_RMS_error": 3.870674602438286e-07,
+      "cases": [
+        "S3",
+        "S5"
+      ]
+    },
+    {
+      "test": "fixed_equilibrium_voltage_for_both_electrodes",
+      "status": "pass"
+    },
+    {
+      "test": "manufactured_full_charge_sources_and_variable_conductivity_divergence",
+      "status": "pass",
+      "errors": [
+        {
+          "domain": "air_electrode",
+          "ionic_unscaled_maxabs_A_m3": 2.131628207280301e-14
+        },
+        {
+          "domain": "fuel_electrode",
+          "ionic_unscaled_maxabs_A_m3": 2.131628207280301e-14
+        },
+        {
+          "domain": "electrolyte",
+          "ionic_unscaled_maxabs_A_m3": 3.552713678800501e-15
+        }
+      ]
+    },
+    {
+      "test": "local_temperature_on_each_side_of_ionic_flux_interface",
+      "status": "pass"
+    }
+  ]
+}

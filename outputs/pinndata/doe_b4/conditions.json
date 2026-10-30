@@ -1,0 +1,54 @@
+{
+  "model_source": "sofc1_FINAL2_solved.mph (COMSOL 6.3)",
+  "note": "B4 transient DOE: larger V-step amplitudes 0.15/0.20 V x stepT {50,100,200}; cleaning identical to original transient DOE",
+  "cases": {
+    "T4": {
+      "V_cell": 1.0,
+      "T_in_K": 1073.0,
+      "lambda_air": 8.0,
+      "FU": 0.6,
+      "stepT_s": 100.0,
+      "stepAmp_V": 0.15
+    },
+    "T5": {
+      "V_cell": 1.0,
+      "T_in_K": 1073.0,
+      "lambda_air": 8.0,
+      "FU": 0.6,
+      "stepT_s": 200.0,
+      "stepAmp_V": 0.15
+    },
+    "T6": {
+      "V_cell": 1.0,
+      "T_in_K": 1073.0,
+      "lambda_air": 8.0,
+      "FU": 0.6,
+      "stepT_s": 50.0,
+      "stepAmp_V": 0.15
+    },
+    "T7": {
+      "V_cell": 1.0,
+      "T_in_K": 1073.0,
+      "lambda_air": 8.0,
+      "FU": 0.6,
+      "stepT_s": 100.0,
+      "stepAmp_V": 0.2
+    },
+    "T8": {
+      "V_cell": 1.0,
+      "T_in_K": 1073.0,
+      "lambda_air": 8.0,
+      "FU": 0.6,
+      "stepT_s": 200.0,
+      "stepAmp_V": 0.2
+    },
+    "T9": {
+      "V_cell": 1.0,
+      "T_in_K": 1073.0,
+      "lambda_air": 8.0,
+      "FU": 0.6,
+      "stepT_s": 50.0,
+      "stepAmp_V": 0.2
+    }
+  }
+}

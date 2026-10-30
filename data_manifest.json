@@ -1,0 +1,48 @@
+{
+  "schema": 1,
+  "assets": [
+    {
+      "name": "sofc-training-data-v20.zip",
+      "bytes": 672269247,
+      "sha256": "05b7d8ba71bf2d9a13222d0405cab031460cf13d823a151363fcb27b3aa8d9b7",
+      "files": [
+        {
+          "path": "outputs/pinndata/doe_ext/merged/doe_steady_combined.parquet",
+          "bytes": 55438763,
+          "sha256": "0404eb163772e81154716f62b33ceb0e3033b3839586f9e970da91bae2966be1"
+        },
+        {
+          "path": "outputs/pinndata/doe_cont/merged/doe_transient_combined2.parquet",
+          "bytes": 705221824,
+          "sha256": "675a818cd77107948f9ceafaa0d5a1bb608e51423f04a71ff957208cc992cbe4"
+        }
+      ]
+    },
+    {
+      "name": "sofc-comsol-reference.zip",
+      "bytes": 55143021,
+      "sha256": "df1d0730c00b418c8afaf915a0f3196b7cb2cd313c5de2fc9b18b6e123a55bef",
+      "files": [
+        {
+          "path": "work/sofc1_FINAL2_solved.mph",
+          "bytes": 100583543,
+          "sha256": "6bc51d398e367ed17beb590828ecfff37721c05aec649dfb0c303894ed2af2b3"
+        }
+      ]
+    },
+    {
+      "name": "sofc-advanced-validation.zip",
+      "bytes": 26675701,
+      "sha256": "81b4f80f0bbd1c43e6484897e2cef30805e68140c07036319090021426b452d2",
+      "files": [
+        {
+          "path": "outputs/pinn_sofc/experiments/electrochem_corrected_20261015/runs/seed42_pinn/checkpoints/epoch_0030.pt",
+          "bytes": 28895466,
+          "sha256": "92514c960f41b19bada367b545a59b2db6f1dca47955b5ee5a64b305ea8c5a62",
+          "source_sha256": "7c5ab1e3ebdfe3438988e5b80cb02c780895ae42f74b22e77a466de343de1f56",
+          "metadata_changes": "config paths relocated; tensors and original protocol identity preserved"
+        }
+      ]
+    }
+  ]
+}

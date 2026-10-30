@@ -1,0 +1,7 @@
+sofc:
+  p_nom_kw: 150
+genset:
+  p_nom_kw: 100
+  fuel: LNG
+battery:
+  e_nom_kwh: 300

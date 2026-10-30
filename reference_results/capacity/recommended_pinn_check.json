@@ -1,0 +1,29 @@
+{
+  "recommended": {
+    "sofc_kw": 150.0,
+    "battery_kwh": 50.0,
+    "genset_kw": 60.0,
+    "fuel": "LNG"
+  },
+  "window": {
+    "start": "2026-07-06",
+    "days": 7,
+    "energy_load_kwh": 18101.0
+  },
+  "runtime_s": 3.090944600000057,
+  "energy_kwh": {
+    "energy_sofc_kwh": 17046.844466616465,
+    "energy_genset_kwh": 1082.1247772429394,
+    "energy_bat_kwh": -27.969243859405022
+  },
+  "ghg_kg_co2eq": 7635.7538694792065,
+  "pinn": {
+    "mode": "lut",
+    "tmax_limit_k": 1173.0,
+    "tmax_max_est_k": 1145.7334137127853,
+    "violations": 0,
+    "derate_steps": 0,
+    "derate_kwh": 0.0,
+    "out_of_domain_share": 0.0067507197458552565
+  }
+}

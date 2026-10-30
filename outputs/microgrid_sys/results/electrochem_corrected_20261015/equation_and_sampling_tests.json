@@ -1,0 +1,78 @@
+{
+  "status": "pass",
+  "tests": [
+    {
+      "test": "constant_reference_density_and_clamp_derivatives",
+      "status": "pass",
+      "rho_kg_m3": [
+        0.3186828704279818,
+        0.023960684254870815,
+        5.0,
+        0.024568178291856504
+      ]
+    },
+    {
+      "test": "manufactured_Danckwerts_Robin_and_gauge_traction",
+      "status": "pass"
+    },
+    {
+      "test": "physical_case_scope_training_only",
+      "status": "pass",
+      "steady": 20,
+      "transient": 12
+    },
+    {
+      "test": "vectorized_voltage_matches_all_five_COMSOL_waveforms",
+      "status": "pass"
+    },
+    {
+      "test": "manufactured_all_domain_energy_and_zero_stationary_storage",
+      "status": "pass"
+    },
+    {
+      "test": "joint_case_time_axial_cells_guaranteed",
+      "status": "pass",
+      "covered_cells": 192,
+      "late_points": 48
+    },
+    {
+      "test": "supervised_time_axial_stratification",
+      "status": "pass",
+      "late_fraction": 0.25,
+      "actual_points": 2112
+    },
+    {
+      "test": "nonuniform_training_steady_initial_field_preserved",
+      "status": "pass",
+      "R3_T_range_K": [
+        1072.9986203302603,
+        1090.5137648112925
+      ]
+    },
+    {
+      "test": "gradient_budget_keeps_data_and_caps_total_physics",
+      "status": "pass",
+      "data_grad_norm": 2.23606797749979,
+      "combined_physics_grad_norm": 1.5811388300841893,
+      "physics_to_data_ratio": 0.7071067811865474,
+      "components": [
+        {
+          "component": "a",
+          "returned_unscaled_mean_loss": 200000.0,
+          "raw_grad_norm": 141421.35623730952,
+          "cap": 1.118033988749895,
+          "scale": 7.905694150420947e-06,
+          "used_grad_norm": 1.118033988749895
+        },
+        {
+          "component": "b",
+          "returned_unscaled_mean_loss": 0.0,
+          "raw_grad_norm": 141421.35623730952,
+          "cap": 1.118033988749895,
+          "scale": 7.905694150420947e-06,
+          "used_grad_norm": 1.118033988749895
+        }
+      ]
+    }
+  ]
+}

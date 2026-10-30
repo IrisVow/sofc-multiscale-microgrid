@@ -1,0 +1,98 @@
+[
+  {
+    "transient_case": "T0",
+    "steady_source": "S1",
+    "steady_voltage": 1.0,
+    "n_points": 15567,
+    "max_T_difference_to_original_t0_K": 9.094947017729282e-13,
+    "test_truth_used": false
+  },
+  {
+    "transient_case": "T1",
+    "steady_source": "S1",
+    "steady_voltage": 1.0,
+    "n_points": 15567,
+    "max_T_difference_to_original_t0_K": 9.094947017729282e-13,
+    "test_truth_used": false
+  },
+  {
+    "transient_case": "T2",
+    "steady_source": "S1",
+    "steady_voltage": 1.0,
+    "n_points": 15567,
+    "max_T_difference_to_original_t0_K": 9.094947017729282e-13,
+    "test_truth_used": false
+  },
+  {
+    "transient_case": "T4",
+    "steady_source": "S1",
+    "steady_voltage": 1.0,
+    "n_points": 15567,
+    "max_T_difference_to_original_t0_K": 9.094947017729282e-13,
+    "test_truth_used": false
+  },
+  {
+    "transient_case": "T5",
+    "steady_source": "S1",
+    "steady_voltage": 1.0,
+    "n_points": 15567,
+    "max_T_difference_to_original_t0_K": 9.094947017729282e-13,
+    "test_truth_used": false
+  },
+  {
+    "transient_case": "T6",
+    "steady_source": "S1",
+    "steady_voltage": 1.0,
+    "n_points": 15567,
+    "max_T_difference_to_original_t0_K": 9.094947017729282e-13,
+    "test_truth_used": false
+  },
+  {
+    "transient_case": "T8",
+    "steady_source": "S1",
+    "steady_voltage": 1.0,
+    "n_points": 15567,
+    "max_T_difference_to_original_t0_K": 9.094947017729282e-13,
+    "test_truth_used": false
+  },
+  {
+    "transient_case": "T9",
+    "steady_source": "S1",
+    "steady_voltage": 1.0,
+    "n_points": 15567,
+    "max_T_difference_to_original_t0_K": 9.094947017729282e-13,
+    "test_truth_used": false
+  },
+  {
+    "transient_case": "R1",
+    "steady_source": "S1",
+    "steady_voltage": 1.0,
+    "n_points": 15567,
+    "max_T_difference_to_original_t0_K": 2.5267218006774783e-07,
+    "test_truth_used": false
+  },
+  {
+    "transient_case": "R2",
+    "steady_source": "S1",
+    "steady_voltage": 1.0,
+    "n_points": 15567,
+    "max_T_difference_to_original_t0_K": 9.094947017729282e-13,
+    "test_truth_used": false
+  },
+  {
+    "transient_case": "R3",
+    "steady_source": "S3",
+    "steady_voltage": 0.9,
+    "n_points": 15567,
+    "max_T_difference_to_original_t0_K": 3.80841061087267e-05,
+    "test_truth_used": false
+  },
+  {
+    "transient_case": "R4",
+    "steady_source": "S1",
+    "steady_voltage": 1.0,
+    "n_points": 15567,
+    "max_T_difference_to_original_t0_K": 1.3642420526593924e-12,
+    "test_truth_used": false
+  }
+]

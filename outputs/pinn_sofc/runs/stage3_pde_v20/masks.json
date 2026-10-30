@@ -1,0 +1,72 @@
+{
+  "air_channel": {
+    "T": 1,
+    "u": 1,
+    "v": 1,
+    "p": 1,
+    "w1": 1,
+    "w2": 1,
+    "w3": 1,
+    "phis": 0,
+    "phil": 0,
+    "htQ": 1,
+    "qav_an": 0,
+    "qav_ca": 0
+  },
+  "air_electrode": {
+    "T": 1,
+    "u": 1,
+    "v": 1,
+    "p": 1,
+    "w1": 1,
+    "w2": 1,
+    "w3": 1,
+    "phis": 1,
+    "phil": 1,
+    "htQ": 1,
+    "qav_an": 0,
+    "qav_ca": 1
+  },
+  "electrolyte": {
+    "T": 1,
+    "u": 0,
+    "v": 0,
+    "p": 0,
+    "w1": 0,
+    "w2": 0,
+    "w3": 0,
+    "phis": 0,
+    "phil": 1,
+    "htQ": 1,
+    "qav_an": 0,
+    "qav_ca": 0
+  },
+  "fuel_electrode": {
+    "T": 1,
+    "u": 1,
+    "v": 1,
+    "p": 1,
+    "w1": 1,
+    "w2": 1,
+    "w3": 1,
+    "phis": 1,
+    "phil": 1,
+    "htQ": 1,
+    "qav_an": 1,
+    "qav_ca": 0
+  },
+  "fuel_channel": {
+    "T": 1,
+    "u": 1,
+    "v": 1,
+    "p": 1,
+    "w1": 1,
+    "w2": 1,
+    "w3": 1,
+    "phis": 0,
+    "phil": 0,
+    "htQ": 1,
+    "qav_an": 0,
+    "qav_ca": 0
+  }
+}

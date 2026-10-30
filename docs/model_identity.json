@@ -1,0 +1,17 @@
+[
+  {
+    "file": "outputs/pinn_sofc/runs/stage3_pde_v20/final.pt",
+    "model_tensors_exactly_equal": true,
+    "tensor_count": 37
+  },
+  {
+    "file": "outputs/pinn_sofc/runs/stage3_pde_v19/best.pt",
+    "model_tensors_exactly_equal": true,
+    "tensor_count": 37
+  },
+  {
+    "file": "outputs/pinn_sofc/experiments/electrochem_corrected_20261015/runs/seed42_pinn/checkpoints/epoch_0030.pt",
+    "model_tensors_exactly_equal": true,
+    "tensor_count": 37
+  }
+]

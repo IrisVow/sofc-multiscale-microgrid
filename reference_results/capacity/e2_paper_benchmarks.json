@@ -1,0 +1,87 @@
+{
+  "baseline": {
+    "genset_kw": 250.0,
+    "fuel": "MGO",
+    "ghg_kg_7d": 14376.301518148379,
+    "nox_kg_7d": 202.01135202962433,
+    "sox_kg_7d": 14.868940000987608,
+    "pm_kg_7d": 8.919693057661231,
+    "fuel_energy_kwh_7d": 53312.065704625464,
+    "fuel_kg_7d": 4484.192442445133,
+    "specific_fuel_kwh_per_kwh": 3.058147039180479,
+    "lcoe_usd_mwh": 271.5102815132371,
+    "capex_usd": 142500.0,
+    "sizing": {
+      "equipment_volume_m3": 7.7111777777777775,
+      "total_volume_m3": 22.497764003524495,
+      "equipment_weight_ton": 5.178803440860215,
+      "total_weight_ton": 14.407349947713517
+    }
+  },
+  "recommended": {
+    "sofc_kw": 150.0,
+    "battery_kwh": 50.0,
+    "genset_kw": 60.0,
+    "fuel": "LNG",
+    "sofc_share_pct": 71.42857142857143,
+    "ghg_kg_7d": 7322.271661107319,
+    "nox_kg_7d": 1.8876941879034397,
+    "sox_kg_7d": 0.0,
+    "pm_kg_7d": 0.021207957751057074,
+    "fuel_energy_kwh_7d": 34535.07556056925,
+    "fuel_kg_7d": 2486.5254403609856,
+    "specific_fuel_kwh_per_kwh": 1.9810400830944679,
+    "lcoe_usd_mwh": 138.47949189051036,
+    "capex_usd": 272500.0,
+    "annual_cost_usd": 117195.19398693892,
+    "sizing": {
+      "equipment_volume_m3": 13.488888888888889,
+      "total_volume_m3": 28.275475114635604,
+      "equipment_weight_ton": 8.012096774193548,
+      "total_weight_ton": 17.24064328104685
+    }
+  },
+  "reductions": {
+    "ghg_pct": 49.06706949722904,
+    "nox_pct": 99.06555044113233,
+    "sox_pct": 100.0,
+    "pm_pct": 99.76223444445948,
+    "fuel_efficiency_gain_pct": 54.37078054491076
+  },
+  "economics": {
+    "lcoe_delta_pct": -48.996593750075355,
+    "incremental_capex_usd": 130000.0,
+    "annual_op_saving_usd": 125824.74440472317,
+    "simple_payback_years": 1.033183104126537,
+    "npv_20y_usd": 1105365.888070203
+  },
+  "paper_benchmarks": [
+    {
+      "scenario": "SOFC AUX",
+      "sofc_share_pct": 17.5,
+      "ghg_reduction_pct": 21,
+      "pollutant_reduction_range": [
+        38,
+        46
+      ]
+    },
+    {
+      "scenario": "SOFC MAN",
+      "sofc_share_pct": 31.0,
+      "ghg_reduction_pct": 33,
+      "pollutant_reduction_range": [
+        60,
+        70
+      ]
+    },
+    {
+      "scenario": "SOFC CRUISE",
+      "sofc_share_pct": 51.0,
+      "ghg_reduction_pct": 49,
+      "pollutant_reduction_range": [
+        94,
+        96
+      ]
+    }
+  ]
+}

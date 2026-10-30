@@ -1,0 +1,86 @@
+scenario:
+  name: 典型海岛孤网（社区型）
+  grid_type: islanded
+  scale_kw: 200
+  time_horizon_years: 5
+  time_step_s: 60
+load:
+  segments:
+    residential_ratio: 0.45
+    tourism_ratio: 0.35
+    desalination_kw: 40
+    desalination_schedulable: true
+    port_kw: null
+  profile_source: 论文负荷形态 + 海岛季节调制
+  peak_load_kw: 200
+  annual_energy_mwh: ~800
+renewables:
+  include_pv: false
+  include_wind: false
+  pv_capacity_kw: null
+  wind_capacity_kw: null
+fuel:
+  primary: LNG
+  sofc_fuel: LNG
+  backup_fuel: MGO
+  ch4_gwp: 25
+components:
+  sofc_share_options:
+  - 0.0
+  - 0.175
+  - 0.31
+  - 0.51
+  sofc_capacity_kw: 150
+  sofc_capacity_scan:
+  - 50
+  - 100
+  - 150
+  - 200
+  battery_mwh_range:
+  - 0.1
+  - 0.5
+  battery_capacity_scan:
+  - 50
+  - 100
+  - 200
+  - 300
+  - 500
+  genset_capacity_kw: 100
+  genset_capacity_scan:
+  - 60
+  - 80
+  - 100
+  - 120
+  genset_min_load: 0.1
+constraints:
+  sofc_tmax_k: 1173.0
+  sofc_max_dt_k: 50
+  sofc_ramp_rise: 0.02
+  sofc_ramp_fall: 0.08
+  battery_soc_bounds:
+  - 0.2
+  - 0.9
+  battery_soc_target: 0.55
+benchmark:
+  paper_cruise_ghg_tiers:
+  - 0.21
+  - 0.33
+  - 0.49
+  run_calibration_first: true
+analysis:
+  metrics:
+  - ghg
+  - nox
+  - sox
+  - pm
+  - fuel
+  - volume_weight
+  - lcoe
+  - npv
+  sensitivity:
+  - degradation_rate
+  - t_in
+  - lambda_air
+  - fu
+  - load_shape
+  - battery_cost

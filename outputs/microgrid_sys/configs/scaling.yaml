@@ -1,0 +1,9 @@
+cell_length_m: 0.1
+channel_width_m: 0.0015
+rib_width_m: 0.001
+cell_width_m: 0.1
+v_stack_target_v: 400.0
+bop_frac: 0.05
+cell_pitch_stack_m: 0.003
+frame_frac: 1.3
+bop_volume_frac: 0.5

@@ -1,0 +1,9 @@
+import com.comsol.model.*;import com.comsol.model.util.*;
+public class BinaryGridSolve{
+ public static void main(String[] a){try{ModelUtil.initStandalone(false);ModelUtil.showPlots(false);ModelUtil.showProgress(a[2]);Model m=ModelUtil.load("BinaryGrid",a[0]);m.sol("sol1").copySolution("binaryGridWarm");
+  int refine=Integer.parseInt(a[3]);if(refine>0){m.mesh("mesh1").create("binaryGridRefine","Refine");m.mesh("mesh1").feature("binaryGridRefine").set("rmethod","regular");m.mesh("mesh1").feature("binaryGridRefine").set("numrefine",refine);m.mesh("mesh1").run();}
+  double v=Double.parseDouble(a[4]);m.param().set("V_cell",v+"[V]");m.sol("sol1").feature("s1").feature("p1").set("plist",new String[][]{{Double.toString(v)}});m.sol("sol1").feature("v1").set("initmethod","sol");m.sol("sol1").feature("v1").set("initsol","binaryGridWarm");m.sol("sol1").feature("v1").set("solnum","1");m.sol("sol1").feature("s1").set("stol","1e-9");m.sol("sol1").feature("s1").feature("fc1").set("initstep","1");m.sol("sol1").feature("s1").feature("fc1").set("maxiter","40");
+  if(refine>0)for(String tag:m.sol("sol1").feature("s1").feature().tags())if(m.sol("sol1").feature("s1").feature(tag).getType().equals("Direct")){m.sol("sol1").feature("s1").feature(tag).set("ooc","on");m.sol("sol1").feature("s1").feature(tag).set("incore","manual");m.sol("sol1").feature("s1").feature(tag).set("oocmemory",4096);}
+  System.out.println("GRID_SOLVE_START|vertices="+m.mesh("mesh1").getVertex()[0].length+"|V="+v);System.out.flush();m.save(a[1].replace(".mph","_configured.mph"));m.sol("sol1").runAll();m.label("Binary Maxwell-Stefan mesh study; uniform regular refinement, physical aliases bt_*");m.save(a[1]);m.save(a[1].replace(".mph","_history.java"),"java");System.out.println("GRID_SOLVE_COMPLETE");System.exit(0);
+ }catch(Throwable e){e.printStackTrace(System.out);System.exit(1);}}
+}
