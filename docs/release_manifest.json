@@ -21,44 +21,19 @@
       "sha256": "71d9c6d48742104daf36e739c7fd947c99ee6c811401b480f9ad581c1d8f91a7"
     },
     {
-      "file": "CITATION.cff",
-      "bytes": 834,
-      "sha256": "e62c3e6db19229a4494248326b9eef8b9f4cdd6a17818d09750b95fb20201a70"
-    },
-    {
-      "file": "DATA_LICENSE.md",
-      "bytes": 1806,
-      "sha256": "1d5be8c9a59d3291be920d512801b6f416412a112d3e4132c490ac3ecd366857"
-    },
-    {
-      "file": "LICENSE",
-      "bytes": 1066,
-      "sha256": "279e715f5544bc90e541e681140179555b6ca1e902704e8f98c66f7fcb6a305d"
-    },
-    {
-      "file": "LICENSES/CC-BY-4.0.txt",
-      "bytes": 17179,
-      "sha256": "4500200b91acb1324538d8e8f9665d5f4142d3f1c5cd9730564cf1895b6170f7"
-    },
-    {
-      "file": "NOTICE",
-      "bytes": 544,
-      "sha256": "48110820f4edcaadb07c68e0f35806664605b5d0b94e55f5501edf308b8f8387"
+      "file": "README.en.md",
+      "bytes": 10843,
+      "sha256": "74491695472d21781e7ded0714ecf40feebe3fb28587c9abd891d8b128cdf23c"
     },
     {
       "file": "README.md",
-      "bytes": 8834,
-      "sha256": "ba1ea16f55aed06429e98308f5c07505aac257fdb82e611faa43bd5ea8dbd9a9"
+      "bytes": 8385,
+      "sha256": "1819816fc7ded1378f7da3427e93919a0b26e0d53a0cc5f93f5df7a34b397f0f"
     },
     {
       "file": "data_manifest.json",
       "bytes": 1747,
       "sha256": "3829d46214cc86ef0e8f8c706afeb9cb5ce308bf7e34154c4624bbb35197cc95"
-    },
-    {
-      "file": "docs/CITATION.md",
-      "bytes": 1164,
-      "sha256": "5fc21038f069f599eda144758045821c2089265f44453e3b973d13cf36739fd6"
     },
     {
       "file": "docs/ENVIRONMENT.md",
@@ -82,18 +57,18 @@
     },
     {
       "file": "docs/VALIDATION.md",
-      "bytes": 3190,
-      "sha256": "33f9b19784159ca17663c1db2479a35e2c55e3f1bd2f3f3aa0157be0f1828e3c"
+      "bytes": 3383,
+      "sha256": "b1701fa12e8aede57efd96792debb068f2dc2d00c20a37494db09ee6e917dd7c"
     },
     {
       "file": "docs/VERSIONS.md",
-      "bytes": 3809,
-      "sha256": "82d8a1299c5c5a0e236aa49d4e046a5b4f936fd398c54f8064003d1d66fd36a3"
+      "bytes": 3884,
+      "sha256": "ed4e43fea1fdee71478f989cef7270958e6297a0e1d62f77e961c10baf5ea046"
     },
     {
       "file": "docs/metadata_validation.json",
-      "bytes": 504,
-      "sha256": "ae07607bf62e9f9b42b768c4cb17ad339ce54b267904aca1df1cdc3720439c6f"
+      "bytes": 477,
+      "sha256": "81358f6974c9cc67edc791a23eb923f3d73d10a039de233bf87b3f4988d2cd5c"
     },
     {
       "file": "docs/model_identity.json",

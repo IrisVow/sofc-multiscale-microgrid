@@ -1,13 +1,12 @@
 {
   "checked_on": "2026-10-30",
-  "cff_required_and_used_fields_checked_against_official_schema": true,
-  "citation_author": "张晏瑞",
-  "code_license": "MIT",
-  "data_and_model_license": "CC-BY-4.0",
+  "documentation_version": "1.0.2",
   "pinned_dependency_count": 37,
   "all_pins_match_validated_environment": true,
   "referenced_inputs_checked": 13,
   "local_markdown_links_valid": true,
+  "bilingual_readme_language_links_valid": true,
+  "documented_entry_commands_match_between_languages": true,
   "metrics_plot_command_passed": true,
   "scientific_source_models_data_changed": false,
   "fresh_environment_install_run": false
